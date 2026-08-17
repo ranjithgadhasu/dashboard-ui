@@ -1,0 +1,80 @@
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  /* Drawer */
+
+  .task-details-drawer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    max-width: 100%;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+    overflow: hidden;
+  }
+
+
+  /* Close button */
+
+  .task-details-close {
+    top: 12px;
+    right: 14px;
+
+    width: 34px;
+    height: 34px;
+
+    z-index: 30;
+  }
+
+
+  /* Header */
+
+  .task-details-header {
+    flex-shrink: 0;
+
+    padding: 16px 58px 14px 16px;
+
+    min-height: 64px;
+  }
+
+
+  /* Content */
+
+  .task-details-content {
+    flex: 1;
+
+    padding: 20px 16px 28px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  /* Sections */
+
+  .task-details-title,
+  .task-details-assignees,
+  .task-details-labels,
+  .task-details-due-date,
+  .task-details-description,
+  .task-details-checklist,
+  .task-details-attachments,
+  .task-details-activity,
+  .task-details-comment-input,
+  .task-details-comments {
+    width: 100%;
+  }
+
+}
+

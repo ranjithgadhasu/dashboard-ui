@@ -1,0 +1,112 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     ORDERS TABS WRAPPER
+  ========================================== */
+
+  .orders-tabs-wrapper {
+    width: 360px !important;
+    max-width: calc(100vw - 12px) !important;
+
+    margin-left: -20px !important;
+    margin-right: 0 !important;
+   padding: 0;
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     TAB LIST
+  ========================================== */
+
+  .orders-tabs-list {
+    width: 360px !important;
+
+
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-end !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    scrollbar-width: none !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .orders-tabs-list::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     TAB
+  ========================================== */
+
+  .orders-tabs-list button {
+    flex: 0 0 auto !important;
+
+    width: 90px !important;
+    min-width: 90px !important;
+
+    height: 34px !important;
+
+    margin-left: 2px !important;
+
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+
+    padding-top: 5px !important;
+    padding-bottom: 7px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     TAB CONTENT
+  ========================================== */
+
+  .orders-tab-content {
+    gap: 4px !important;
+  }
+
+
+  /* ==========================================
+     LABEL
+  ========================================== */
+
+  .orders-tab-label {
+    font-size: 9px !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     COUNT
+  ========================================== */
+
+  .orders-tab-count {
+    height: 15px !important;
+
+    min-width: 20px !important;
+
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+
+    border-radius: 4px !important;
+
+    font-size: 7px !important;
+  }
+
+}

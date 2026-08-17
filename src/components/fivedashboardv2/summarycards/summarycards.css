@@ -1,0 +1,21 @@
+
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .summary-cards-column {
+    width: 100% !important;
+    gap: 30px !important;
+    margin-top: 110px;
+  }
+
+  .summary-card {
+    width: 250px !important;
+    margin-left: 50px !important;
+  }
+
+}

@@ -1,0 +1,53 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.gantt-timeline {
+  min-width: 0;
+  width: 100%;
+}
+
+.gantt-timeline-inner {
+  width: calc(var(--day-count) * var(--desktop-day-width));
+  min-width: calc(var(--day-count) * var(--desktop-day-width));
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .gantt-timeline {
+    width: 100%;
+    min-width: 0;
+
+    overflow-x: auto;
+    overflow-y: auto;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gantt-timeline-inner {
+    width: calc(var(--day-count) * var(--mobile-day-width));
+
+    min-width: calc(var(--day-count) * var(--mobile-day-width));
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+  .gantt-timeline-inner {
+    width: calc(var(--day-count) * 50px);
+
+    min-width: calc(var(--day-count) * 50px);
+  }
+
+}

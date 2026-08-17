@@ -1,0 +1,53 @@
+/* =========================================
+   DESKTOP + TABLET
+   X button hidden
+========================================= */
+
+.dashboard-five-sidebar-close {
+  display: none;
+}
+
+
+/* =========================================
+   MOBILE ONLY
+========================================= */
+
+@media (max-width: 767px) {
+
+  .dashboard-five-sidebar-close {
+    position: absolute;
+
+    top: 8px;
+    right: 3px;
+
+    display: flex;
+
+    width: 28px;
+    height: 28px;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 6px;
+
+    background: transparent;
+
+    color: #525C60;
+
+    cursor: pointer;
+
+    z-index: 20;
+  }
+  .dashboard-five-sidebar-overlay{
+    display: none !important;
+  }
+
+
+  .dashboard-five-sidebar-close:hover {
+    background: #F5F7FA;
+  }
+
+}

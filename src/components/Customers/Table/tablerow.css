@@ -1,0 +1,213 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     CUSTOMER ROW
+  ========================================== */
+
+  .customer-row-size {
+    height: 48px !important;
+    width: 360px !important;
+  }
+
+
+  /* ==========================================
+     ALL CELLS
+  ========================================== */
+
+  .customer-row-size > td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+
+    font-size: 8px !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     CHECKBOX
+  ========================================== */
+
+  .customer-checkbox-cell {
+    width: 24px !important;
+
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+
+
+  .customer-checkbox-cell input {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+
+  /* ==========================================
+     CUSTOMER
+  ========================================== */
+
+  .customer-info-cell {
+    width: 125px !important;
+  }
+
+  .customer-info {
+    gap: 5px !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /* ==========================================
+     AVATAR
+  ========================================== */
+
+  .customer-avatar {
+    width: 22px !important;
+    height: 22px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* ==========================================
+     CUSTOMER DETAILS
+  ========================================== */
+
+  .customer-details {
+    min-width: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .customer-name {
+    display: block !important;
+
+    max-width: 90px !important;
+
+    font-size: 8px !important;
+
+    line-height: 1.2 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  .customer-email {
+    display: block !important;
+
+    max-width: 90px !important;
+
+    margin-top: 1px !important;
+
+    font-size: 6px !important;
+
+    line-height: 1.1 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* ==========================================
+     LOCATION
+  ========================================== */
+
+  .customer-location-cell {
+    width: 90px !important;
+  }
+
+  .customer-location {
+    display: block !important;
+
+    max-width: 85px !important;
+
+    font-size: 7px !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* ==========================================
+     PHONE
+  ========================================== */
+
+  .customer-phone-cell {
+    width: 75px !important;
+  }
+
+  .customer-phone {
+    display: block !important;
+
+    max-width: 70px !important;
+
+    font-size: 7px !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* ==========================================
+     DATE
+  ========================================== */
+
+  .customer-date-cell {
+    width: 55px !important;
+  }
+
+  .customer-date {
+    font-size: 7px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     STATUS
+  ========================================== */
+
+  .customer-status-cell {
+    width: 65px !important;
+  }
+
+
+  /* ==========================================
+     ACTIONS
+  ========================================== */
+
+  .customer-actions-cell {
+    width: 25px !important;
+  }
+
+  .customer-action-button {
+    padding: 3px !important;
+  }
+
+  .customer-action-button svg {
+    width: 11px !important;
+    height: 11px !important;
+  }
+
+}

@@ -1,0 +1,72 @@
+/* =========================================
+   FOLDER SIDEBAR - MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .folder-sidebar-mobile {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        flex: none !important;
+
+        border-right: none !important;
+        border-bottom: 1px solid #EEF2F7;
+
+        overflow: visible !important;
+    }
+
+
+    /* Folder title */
+
+    .folder-sidebar-mobile > div:first-child {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+        padding-top: 20px !important;
+    }
+
+
+    /* Folder list */
+
+    .folder-sidebar-mobile .folder-tree-mobile {
+        width: 100% !important;
+
+        flex: none !important;
+
+        max-height: 400px;
+
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+
+
+    /* Parent folder rows */
+
+    .folder-sidebar-mobile .folder-tree-mobile > div > div {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+
+    /* Child folders */
+
+    .folder-sidebar-mobile .folder-tree-mobile .ml-10 {
+        margin-left: 24px !important;
+        padding-left: 20px !important;
+    }
+
+
+    /* Child folder spacing */
+
+    .folder-sidebar-mobile .folder-tree-mobile .py-3 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}

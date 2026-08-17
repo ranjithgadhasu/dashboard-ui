@@ -1,0 +1,272 @@
+/* =========================================
+   MAIN LAYOUT TWO
+   ========================================= */
+
+.main-layout-two {
+    position: relative;
+
+    width: 100%;
+
+    min-height: 100vh;
+}
+
+
+/* =========================================
+   DESKTOP SIDEBAR
+   ========================================= */
+
+.main-layout-two-sidebar {
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    z-index: 1001;
+
+    width: 80px;
+
+    height: 100vh;
+}
+
+
+/* =========================================
+   DESKTOP HEADER
+   ========================================= */
+
+.main-layout-two-header {
+    position: fixed;
+
+    left: 80px;
+
+    right: 0;
+
+    top: 0;
+
+    z-index: 1000;
+
+    height: 70px;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+.main-layout-two-content {
+    margin-left: 80px;
+
+    padding-top: 70px;
+
+    min-height: 100vh;
+}
+
+
+/* =========================================
+   OVERLAY
+   ========================================= */
+
+.main-layout-two-overlay {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       PAGE
+       ===================================== */
+
+    .main-layout-two {
+        width: 100% !important;
+
+        min-height: 100vh !important;
+
+        overflow-x: hidden !important;
+    }
+
+
+    /* =====================================
+       SIDEBAR
+       ===================================== */
+
+    .main-layout-two-sidebar {
+
+        position: fixed !important;
+
+        left: 0 !important;
+
+        top: 0 !important;
+
+        width: 80px !important;
+
+        height: 100vh !important;
+
+        z-index: 1003 !important;
+
+        transform: translateX(-100%) !important;
+
+        transition: transform 0.3s ease !important;
+
+        background: #ffffff !important;
+
+    }
+
+
+    /* OPEN SIDEBAR */
+
+    .main-layout-two-sidebar.is-open {
+        transform: translateX(0) !important;
+    }
+
+
+    /* =====================================
+       OVERLAY
+       ===================================== */
+
+    .main-layout-two-overlay {
+
+        position: fixed !important;
+
+        inset: 0 !important;
+
+        display: block !important;
+
+        z-index: 1002 !important;
+
+        background: rgba(0, 0, 0, 0.35) !important;
+    }
+
+
+    /* =====================================
+       HEADER
+       ===================================== */
+
+    .main-layout-two-header {
+
+        position: sticky !important;
+
+        left: 0 !important;
+
+        right: 0 !important;
+
+        top: 0 !important;
+
+        width: 100% !important;
+
+        height: 64px !important;
+
+        z-index: 1000 !important;
+
+        background: #ffffff !important;
+    }
+
+
+    /* =====================================
+       MAIN CONTENT
+       ===================================== */
+
+    .main-layout-two-content {
+
+        width: 100% !important;
+
+        margin-left: 0 !important;
+
+        padding-top: 0 !important;
+
+        min-height: calc(100vh - 64px) !important;
+
+        overflow-x: hidden !important;
+    }
+
+
+    /* =====================================
+       INNER CONTENT
+       ===================================== */
+
+    .main-layout-two-inner {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        padding: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       TOP BAR
+       ===================================== */
+
+    .main-layout-two-topbar {
+
+        width: 100% !important;
+
+        margin-bottom: 20px !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        gap: 12px !important;
+    }
+
+
+    /* =====================================
+       SEARCH
+       ===================================== */
+
+    .main-layout-two-topbar > *:first-child {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+    }
+
+
+    /* =====================================
+       ADD CONTACT
+       ===================================== */
+
+    .main-layout-two-topbar button {
+
+        width: 100% !important;
+
+        min-height: 42px !important;
+    }
+
+
+    /* =====================================
+       CARDS
+       ===================================== */
+
+    .main-layout-two-cards {
+
+        width: 100% !important;
+
+        min-width: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    .main-layout-two-cards > * {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+}

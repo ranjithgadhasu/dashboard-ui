@@ -1,0 +1,37 @@
+export const activeTasksData = [
+  {
+    id: 1,
+    color: "#22963F",
+    name: "Regina Cooper",
+    project: "#783",
+    text: "Sending project",
+    target: "for revision to Leslie Miles",
+    completed: false,
+  },
+  {
+    id: 2,
+    color: "#48C9BE",
+    name: "Regina Cooper",
+    project: "#675",
+    text: "Sending project",
+    target: "for revision to Kristin Edwards",
+    completed: true,
+  },
+  {
+    id: 3,
+    color: "#4BD463",
+    name: "Regina Cooper",
+    project: "#788",
+    text: "Sending project",
+    target: "for revision to Regina Warren",
+    completed: false,
+  },
+  {
+    id: 4,
+    color: "#FFC83D",
+    name: "Regina Cooper",
+    project: "#543",
+    text: "for revision to Stella Penas",
+    completed: false,
+  },
+];

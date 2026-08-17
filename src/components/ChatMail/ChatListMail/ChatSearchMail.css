@@ -1,0 +1,30 @@
+
+
+/* =========================================
+   MOBILE - WHATSAPP STYLE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .chat-search-mail {
+    width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+
+  .chat-search-mail-input {
+    height: 44px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 42px;
+    padding-right: 14px;
+    font-size: 13px;
+    background: #F8F9FB;
+  }
+
+  .chat-search-mail-icon {
+    left: 26px !important;
+  }
+
+}

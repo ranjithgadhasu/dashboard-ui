@@ -1,0 +1,545 @@
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .add-project-overlay {
+        background: rgba(0, 0, 0, 0.28);
+    }
+
+
+    /* Modal */
+
+    .add-project-modal {
+        width: calc(100% - 32px);
+
+        max-width: 350px;
+
+        height: auto;
+
+        max-height: calc(100vh - 40px);
+
+        border-radius: 16px;
+
+        overflow: hidden;
+
+        box-shadow:
+            0 20px 50px rgba(16, 24, 40, 0.18);
+    }
+
+
+    /* Header */
+
+    .add-project-header {
+        height: 56px;
+
+        padding: 12px 16px;
+
+        flex-shrink: 0;
+    }
+
+    .add-project-title {
+        font-size: 20px !important;
+
+        line-height: 24px;
+
+        font-weight: 500 !important;
+    }
+
+    .add-project-close {
+        width: 30px;
+
+        height: 30px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 0;
+    }
+
+    .add-project-close svg {
+        width: 15px;
+
+        height: 15px;
+    }
+
+
+    /* Body */
+
+    .add-project-body {
+        width: 100%;
+
+        height: auto;
+
+        max-height: calc(100vh - 96px);
+
+        overflow-y: auto;
+
+        padding: 12px 16px 18px;
+
+        scrollbar-width: none;
+    }
+
+    .add-project-body::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    /* Upload */
+
+    .add-project-upload-wrapper {
+        margin-top: 8px;
+
+        margin-bottom: 16px;
+    }
+
+    .add-project-upload {
+        width: 56px;
+
+        height: 56px;
+
+        border-radius: 14px;
+    }
+
+    .add-project-upload svg {
+        width: 21px;
+
+        height: 21px;
+    }
+
+
+    /* Fields */
+
+    .add-project-field {
+        margin-bottom: 13px;
+    }
+
+    .add-project-label {
+        margin-bottom: 5px;
+
+        font-size: 12px !important;
+
+        line-height: 16px;
+    }
+
+
+    /* Inputs */
+
+    .add-project-input {
+        width: 100%;
+
+        height: 36px;
+
+        padding-left: 11px;
+
+        padding-right: 11px;
+
+        border-radius: 8px;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Description */
+
+    .add-project-textarea {
+        min-height: 72px;
+
+        height: 72px;
+
+        padding: 10px;
+
+        border-radius: 8px;
+
+        font-size: 12px !important;
+
+        line-height: 17px;
+    }
+
+
+    /* Dates */
+
+    .add-project-dates {
+        gap: 8px;
+
+        margin-bottom: 13px;
+    }
+
+    .add-project-date {
+        height: 36px;
+
+        padding-left: 8px;
+
+        padding-right: 8px;
+
+        border-radius: 8px;
+
+        font-size: 11px;
+    }
+
+    .add-project-date>div {
+        gap: 4px;
+    }
+
+    .add-project-date .add-project-icon {
+        width: 13px;
+
+        height: 13px;
+    }
+
+    .add-project-value {
+        font-size: 11px !important;
+
+        white-space: nowrap;
+    }
+
+
+    /* Members */
+
+    .add-project-members {
+        height: 36px;
+
+        padding-left: 8px;
+
+        padding-right: 8px;
+
+        border-radius: 8px;
+    }
+
+    .add-project-member {
+        gap: 5px;
+
+        padding: 3px 6px;
+
+        border-radius: 6px;
+    }
+
+    .add-project-avatar {
+        width: 20px;
+
+        height: 20px;
+    }
+
+    .add-project-member-name {
+        font-size: 11px !important;
+    }
+
+    .add-project-members>svg {
+        width: 14px;
+
+        height: 14px;
+    }
+
+
+    /* Budget */
+
+    .add-project-budget {
+        height: 36px;
+
+        padding-left: 8px;
+
+        padding-right: 8px;
+
+        border-radius: 8px;
+    }
+
+    .add-project-budget .add-project-icon {
+        width: 14px;
+
+        height: 14px;
+    }
+
+    .add-project-budget-input {
+        margin-left: 5px;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Footer */
+
+    .add-project-footer {
+        margin-top: 18px;
+
+        justify-content: flex-end;
+    }
+
+    .add-project-create {
+        height: 36px;
+
+        padding-left: 20px;
+
+        padding-right: 20px;
+
+        border-radius: 8px;
+
+        font-size: 12px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE ONLY
+========================================= */
+
+@media (max-width: 767px) {
+
+  /* Overlay */
+  .add-project-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  /* Modal */
+  .add-project-modal {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    z-index: 50;
+
+    width: calc(100% - 32px);
+    max-width: 350px;
+
+    height: auto;
+    max-height: calc(100vh - 32px);
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    box-shadow: 0 20px 50px rgba(16, 24, 40, 0.18);
+  }
+
+  /* Header */
+  .add-project-header {
+    height: 54px;
+
+    padding: 12px 16px !important;
+  }
+
+  .add-project-title {
+    font-size: 20px !important;
+    line-height: 24px;
+  }
+
+  .add-project-close {
+    width: 32px;
+    height: 32px;
+
+    padding: 0 !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add-project-close svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  /* Body */
+  .add-project-body {
+    height: auto !important;
+
+    max-height: calc(100vh - 86px);
+
+    padding: 16px !important;
+
+    overflow-y: auto;
+  }
+
+  /* Upload */
+  .add-project-upload-wrapper {
+    margin-top: 8px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .add-project-upload {
+    width: 58px !important;
+    height: 58px !important;
+
+    border-radius: 14px !important;
+  }
+
+  .add-project-upload svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Fields */
+  .add-project-field {
+    margin-bottom: 14px !important;
+  }
+
+  .add-project-label {
+    margin-bottom: 6px !important;
+
+    font-size: 12px !important;
+    line-height: 16px;
+  }
+
+  /* Inputs */
+  .add-project-input {
+    height: 38px !important;
+
+    padding: 0 12px !important;
+
+    border-radius: 9px !important;
+
+    font-size: 12px !important;
+  }
+
+  /* Description */
+  .add-project-textarea {
+    min-height: 82px;
+
+    padding: 11px !important;
+
+    border-radius: 9px !important;
+
+    font-size: 12px !important;
+  }
+
+  /* Start / End Date */
+  .add-project-dates {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px !important;
+  }
+
+  .add-project-date {
+    height: 38px !important;
+
+    padding: 0 8px !important;
+
+    border-radius: 9px !important;
+  }
+
+  .add-project-date svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .add-project-value {
+    font-size: 11px !important;
+  }
+
+  /* Members */
+  .add-project-members {
+    height: 38px !important;
+
+    padding: 0 9px !important;
+
+    border-radius: 9px !important;
+  }
+
+  .add-project-member {
+    padding: 4px 6px !important;
+
+    border-radius: 7px !important;
+  }
+
+  .add-project-avatar {
+    width: 21px !important;
+    height: 21px !important;
+  }
+
+  .add-project-member-name {
+    font-size: 11px !important;
+  }
+
+  /* Budget */
+  .add-project-budget {
+    height: 38px !important;
+
+    padding: 0 9px !important;
+
+    border-radius: 9px !important;
+  }
+
+  .add-project-budget-input {
+    font-size: 12px !important;
+  }
+
+  .add-project-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Footer */
+  .add-project-footer {
+    margin-top: 20px !important;
+
+    justify-content: flex-end;
+  }
+
+  .add-project-create {
+    height: 38px !important;
+
+    padding: 0 22px !important;
+
+    border-radius: 8px !important;
+
+    font-size: 12px !important;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .add-project-modal {
+    width: calc(100% - 24px);
+   margin-top: 85% !important;
+    max-width: 340px;
+   margin-left: 170px !important;
+    max-height: calc(100vh - 24px);
+  }
+
+  .add-project-body {
+    max-height: calc(100vh - 78px);
+
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .add-project-header {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .add-project-title {
+    font-size: 19px !important;
+  }
+
+  .add-project-label {
+    font-size: 11px !important;
+  }
+
+  .add-project-input,
+  .add-project-textarea,
+  .add-project-value,
+  .add-project-member-name,
+  .add-project-budget-input {
+    font-size: 11px !important;
+  }
+}
+

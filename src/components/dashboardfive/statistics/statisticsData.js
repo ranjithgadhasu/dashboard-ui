@@ -1,0 +1,51 @@
+export const statisticsData = [
+  {
+    day: "Mon",
+    total: 400,
+    newTasksRounded: 90,
+    newTasks: 0,
+    inProgress: 0,
+  },
+  {
+    day: "Tue",
+    total: 400,
+    newTasksRounded: 0,
+    newTasks: 170,
+    inProgress: 50,
+  },
+  {
+    day: "Wed",
+    total: 400,
+    newTasksRounded: 0,
+    newTasks: 260,
+    inProgress: 60,
+  },
+  {
+    day: "Thu",
+    total: 400,
+    newTasksRounded: 0,
+    newTasks: 0,
+    inProgress: 120,
+  },
+  {
+    day: "Fri",
+    total: 400,
+    newTasksRounded: 0,
+    newTasks: 170,
+    inProgress: 40,
+  },
+  {
+    day: "Sat",
+    total: 400,
+    newTasksRounded: 150,
+    newTasks: 0,
+    inProgress: 0,
+  },
+  {
+    day: "Sun",
+    total: 400,
+    newTasksRounded: 0,
+    newTasks: 110,
+    inProgress: 110,
+  },
+];

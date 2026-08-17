@@ -1,0 +1,51 @@
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .label-action-popover {
+    width: 240px;
+  }
+
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .label-action-popover {
+    width: calc(100vw - 32px) !important;
+
+    max-width: 300px;
+
+    /* Prevent the popover from going outside screen */
+    left: 16px !important;
+
+    /* Remove desktop offset */
+    margin-top: -90px !important;
+
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+
+    border-radius: 14px;
+  }
+
+  .label-action-popover > button {
+    padding: 14px 18px !important;
+  }
+
+  .label-action-popover > button span {
+    font-size: 14px !important;
+  }
+
+  .label-action-colors {
+    gap: 14px !important;
+    padding: 18px !important;
+  }
+
+}

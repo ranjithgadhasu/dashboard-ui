@@ -1,0 +1,284 @@
+/* =========================================
+   FILE ROW - MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       ROW
+       ===================================== */
+
+    .file-row-mobile {
+
+        display: grid !important;
+
+        /*
+         * Same columns as FileList header
+         *
+         * Checkbox | Name | Date | Size | Owner | Menu
+         */
+
+        grid-template-columns:
+            45px
+            190px
+            120px
+            90px
+            110px
+            45px !important;
+
+        width: 620px !important;
+        min-width: 620px !important;
+        max-width: 620px !important;
+
+        min-height: 68px !important;
+
+        padding: 10px 12px !important;
+
+        column-gap: 8px !important;
+
+        align-items: center !important;
+
+        box-sizing: border-box !important;
+
+        background: #ffffff !important;
+
+        border-bottom: 1px solid #EEF2F7 !important;
+    }
+
+
+    /* =====================================
+       CHECKBOX
+       ===================================== */
+
+    .file-row-checkbox-mobile {
+
+        grid-column: 1 !important;
+
+        width: 45px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: flex-start !important;
+    }
+
+
+    /* =====================================
+       FILE + ICON + NAME
+       ===================================== */
+
+    .file-row-file-mobile {
+
+        grid-column: 2 !important;
+
+        width: 190px !important;
+
+        min-width: 190px !important;
+
+        max-width: 190px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 10px !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* =====================================
+       FILE ICON
+       ===================================== */
+
+    .file-row-icon-mobile {
+
+        width: 36px !important;
+
+        height: 36px !important;
+
+        min-width: 36px !important;
+
+        max-width: 36px !important;
+
+        object-fit: contain !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* =====================================
+       FILE NAME
+       ===================================== */
+
+    .file-row-name-mobile {
+
+        min-width: 0 !important;
+
+        width: 130px !important;
+
+        overflow: hidden !important;
+    }
+
+
+    .file-row-name-mobile h3 {
+
+        margin: 0 !important;
+
+        width: 100% !important;
+
+        font-size: 14px !important;
+
+        line-height: 20px !important;
+
+        color: #37393D !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+
+        text-overflow: ellipsis !important;
+    }
+
+
+    /* =====================================
+       DATE
+       ===================================== */
+
+    .file-row-date-mobile {
+
+        grid-column: 3 !important;
+
+        width: 120px !important;
+
+        min-width: 120px !important;
+
+        font-size: 13px !important;
+
+        line-height: 18px !important;
+
+        color: #5E6673 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* =====================================
+       SIZE
+       ===================================== */
+
+    .file-row-size-mobile {
+
+        grid-column: 4 !important;
+
+        width: 90px !important;
+
+        min-width: 90px !important;
+
+        font-size: 13px !important;
+
+        line-height: 18px !important;
+
+        color: #5E6673 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* =====================================
+       OWNER
+       ===================================== */
+
+    .file-row-owner-mobile {
+
+        grid-column: 5 !important;
+
+        width: 110px !important;
+
+        min-width: 110px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: flex-start !important;
+    }
+
+
+    /* =====================================
+       OWNER IMAGE
+       ===================================== */
+
+    .file-row-owner-image-mobile {
+
+        width: 34px !important;
+
+        height: 34px !important;
+
+        min-width: 34px !important;
+
+        max-width: 34px !important;
+
+        border-radius: 50% !important;
+
+        object-fit: cover !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* =====================================
+       MENU
+       ===================================== */
+
+    .file-row-menu-mobile {
+
+        grid-column: 6 !important;
+
+        width: 45px !important;
+
+        min-width: 45px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        position: relative !important;
+    }
+
+
+    /* =====================================
+       MENU BUTTON
+       ===================================== */
+
+    .file-row-menu-mobile button {
+
+        width: 32px !important;
+
+        height: 32px !important;
+
+        padding: 0 !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        border: none !important;
+
+        background: transparent !important;
+
+        border-radius: 8px !important;
+    }
+
+
+    .file-row-menu-mobile button:hover {
+
+        background: #F4F6F8 !important;
+    }
+
+}

@@ -1,0 +1,109 @@
+@media (max-width: 767px) {
+.contacts-sizes{
+    width: 350px !important;
+    margin-left: 10px !important;
+}
+
+ /*Contact Model*/
+
+ .contact-modal-overlay {
+    padding: 16px !important;
+    overflow-y: auto !important;
+  }
+
+  .contact-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    max-height: calc(100vh - 32px) !important;
+
+    overflow-y: auto !important;
+
+    padding: 24px !important;
+
+    border-radius: 16px !important;
+  }
+
+
+  /* Close button */
+
+  .contact-modal button.absolute {
+    right: 18px !important;
+    top: 18px !important;
+
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+
+  /* Title */
+
+  .contact-modal h2 {
+    font-size: 24px !important;
+
+    margin-bottom: 20px !important;
+
+    padding-right: 45px !important;
+  }
+
+
+  /* Profile image */
+
+  .contact-modal img {
+    height: 90px !important;
+    width: 90px !important;
+  }
+
+
+  /* Avatar spacing */
+
+  .contact-modal .mb-8 {
+    margin-bottom: 20px !important;
+  }
+
+
+  /* First + Last Name */
+
+  .contact-name-fields {
+    grid-template-columns: 1fr !important;
+
+    gap: 16px !important;
+  }
+
+
+  /* Input */
+
+  .contact-modal input {
+    height: 48px !important;
+
+    font-size: 14px !important;
+
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+
+  /* Phone */
+
+  .contact-modal select {
+    width: 70px !important;
+
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+
+  .contact-modal .mb-6 {
+    margin-bottom: 18px !important;
+  }
+
+
+  /* Add Contact button */
+
+  .contact-modal > button:last-child {
+    height: 50px !important;
+
+    margin-top: 4px !important;
+  }
+}

@@ -1,0 +1,326 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.task-list-top-bar {
+  width: 100%;
+  min-width: 0;
+}
+
+.task-top-bar-left {
+  min-width: 0;
+}
+
+.task-project-button {
+  flex-shrink: 0;
+}
+
+.task-project-title {
+  white-space: nowrap;
+}
+
+.task-members {
+  flex-shrink: 0;
+}
+
+.task-member-list {
+  flex-shrink: 0;
+}
+
+.task-member-avatar {
+  flex-shrink: 0;
+}
+
+.task-member-add {
+  flex-shrink: 0;
+}
+
+.task-top-bar-right {
+  flex-shrink: 0;
+}
+
+.task-filter-button {
+  flex-shrink: 0;
+}
+
+.task-add-button {
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .task-list-top-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .task-top-bar-left {
+    gap: 24px;
+  }
+
+  .task-project-title {
+    font-size: 19px;
+  }
+
+  .task-member-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .task-member-add {
+    width: 38px;
+    height: 38px;
+  }
+
+  .task-top-bar-right {
+    gap: 10px;
+  }
+
+  .task-add-button {
+    height: 46px;
+  }
+
+  .task-add-text {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    font-size: 15px;
+  }
+
+  .task-add-dropdown {
+    width: 42px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .task-list-top-bar {
+    width: 100%;
+    height: 64px;
+
+    min-width: 0;
+
+    padding-left: 12px;
+    padding-right: 8px;
+
+    gap: 6px;
+  }
+
+
+  /* -----------------------------------------
+     LEFT
+  ----------------------------------------- */
+
+  .task-top-bar-left {
+    display: flex;
+
+    min-width: 0;
+
+    flex: 1;
+
+    gap: 8px;
+  }
+
+
+  /* Project */
+
+  .task-project-button {
+    min-width: 0;
+
+    gap: 4px;
+
+    flex-shrink: 1;
+  }
+
+  .task-project-title {
+    max-width: 72px;
+
+    overflow: hidden;
+
+    white-space: normal;
+
+    line-height: 20px;
+
+    font-size: 17px;
+
+    text-align: left;
+  }
+
+  .task-project-arrow {
+    width: 12px;
+    height: 12px;
+
+    flex-shrink: 0;
+  }
+
+
+  /* -----------------------------------------
+     MEMBERS
+  ----------------------------------------- */
+
+  .task-members {
+    min-width: 0;
+
+    flex-shrink: 1;
+  }
+
+  .task-member-list {
+    max-width: 88px;
+
+    overflow: hidden;
+
+    flex-shrink: 1;
+  }
+
+  .task-member-avatar {
+    width: 32px;
+    height: 32px;
+
+    border-width: 2px;
+  }
+
+  /*
+    Show only a compact member group.
+  */
+
+  .task-member-avatar:nth-child(4) {
+    display: none;
+  }
+
+  .task-member-add {
+    width: 32px;
+    height: 32px;
+
+    margin-left: -2px;
+
+    flex-shrink: 0;
+  }
+
+  .task-member-add svg {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  /* -----------------------------------------
+     RIGHT
+  ----------------------------------------- */
+
+  .task-top-bar-right {
+    display: flex;
+
+    gap: 2px;
+
+    flex-shrink: 0;
+  }
+
+
+  /* Filter */
+
+  .task-filter-button {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 8px;
+  }
+
+  .task-filter-button svg {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  /* Add */
+
+  .task-add-button {
+    height: 42px;
+
+    border-radius: 9px;
+  }
+
+  .task-add-text {
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-size: 14px;
+  }
+
+  .task-add-dropdown {
+    width: 34px;
+  }
+
+  .task-add-dropdown svg {
+    width: 15px;
+    height: 15px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+  .task-list-top-bar {
+    height: 60px;
+
+    padding-left: 8px;
+    padding-right: 6px;
+  }
+
+  .task-project-title {
+    max-width: 62px;
+
+    font-size: 15px;
+
+    line-height: 18px;
+  }
+
+  .task-member-list {
+    max-width: 72px;
+  }
+
+  .task-member-avatar {
+    width: 29px;
+    height: 29px;
+  }
+
+  .task-member-add {
+    width: 29px;
+    height: 29px;
+  }
+
+  .task-filter-button {
+    width: 28px;
+    height: 28px;
+  }
+
+  .task-add-button {
+    height: 38px;
+  }
+
+  .task-add-text {
+    padding-left: 8px;
+    padding-right: 8px;
+
+    font-size: 12px;
+  }
+
+  .task-add-dropdown {
+    width: 30px;
+  }
+
+}

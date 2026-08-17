@@ -1,0 +1,155 @@
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .ecommerce-header {
+    width: 366px !important;
+    margin-bottom: 20px !important;
+  }
+
+
+  /* ==========================================
+     TOP
+  ========================================== */
+
+  .ecommerce-header-top {
+    width: 340px !important;
+
+    align-items: center !important;
+
+    gap: 12px !important;
+  }
+
+
+  .ecommerce-header-top h1 {
+    font-size: 24px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     ACTIONS
+  ========================================== */
+
+  .ecommerce-header-actions {
+    gap: 10px !important;
+  }
+  /* Export */
+
+  .ecommerce-header-actions > div:first-child button {
+    height: 42px !important;
+    width: 200px !important;
+   
+  }
+
+
+  .ecommerce-header-actions > div:first-child button span {
+    display: none !important;
+  }
+
+
+  /* Add button */
+
+  .ecommerce-header-actions > button {
+    height: 42px !important;
+    width: 42px !important;
+  }
+
+
+  /* ==========================================
+     TABS
+  ========================================== */
+
+  .ecommerce-header-tabs {
+    margin-top: 24px !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: stretch !important;
+
+    gap: 16px !important;
+  }
+
+
+  /* ==========================================
+     TAB LIST
+  ========================================== */
+
+  .ecommerce-header-tab-list {
+    width: 100% !important;
+
+    gap: 20px !important;
+
+    overflow-x: auto !important;
+
+    white-space: nowrap !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .commerce-header-tab-list-one{
+    width: 340px !important;
+  }
+
+  .ecommerce-header-tab-list::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  .ecommerce-header-tab-list button {
+    flex-shrink: 0 !important;
+
+    padding-bottom: 12px !important;
+
+    font-size: 14px !important;
+  }
+
+
+  /* ==========================================
+     INFORMATION
+  ========================================== */
+
+  .ecommerce-information-btn {
+    align-self: flex-start !important;
+    margin-top: 15px !important;
+    padding: 9px 16px !important;
+
+    font-size: 13px !important;
+  }
+
+
+  /* ==========================================
+     VIEW TOGGLE
+  ========================================== */
+
+  .ecommerce-view-toggle {
+    align-self: flex-end !important;
+    
+  }
+  /*.ecommerce-view-toggle-two{
+    margin-left: 5px !important;
+  }*/
+
+
+  .ecommerce-view-toggle button {
+    height: 36px !important;
+    width: 36px !important;
+  }
+
+
+  /* ==========================================
+     EXPORT DROPDOWN
+  ========================================== */
+
+  .ecommerce-header-actions > div:first-child > div {
+    right: 0 !important;
+
+    width: 170px !important;
+  }
+}

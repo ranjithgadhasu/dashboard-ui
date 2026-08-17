@@ -1,0 +1,46 @@
+/* ============================================
+   TRANSACTIONS - MOBILE
+   0px - 767px
+============================================ */
+
+@media (max-width: 767px) {
+
+  .transactions-card {
+    width: 365px !important;
+
+    padding: 20px !important;
+    margin-top: 920px;
+    box-sizing: border-box !important;
+    margin-left: -260px;
+    overflow: hidden !important;
+
+    order: 9 !important;
+  }
+
+
+  /* Header */
+
+  .transactions-header {
+    width: 100% !important;
+
+    margin-bottom: 20px !important;
+  }
+
+
+  .transactions-header h2 {
+    font-size: 18px !important;
+  }
+
+
+  /* Transaction list */
+
+  .transactions-list {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 20px !important;
+  }
+
+}

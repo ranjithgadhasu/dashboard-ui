@@ -1,0 +1,168 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     OVERLAY
+  ========================================== */
+
+  .order-details-overlay {
+    width: 100% !important;
+    height: 100vh !important;
+
+    padding: 6px !important;
+
+    box-sizing: border-box !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     MODAL
+  ========================================== */
+
+  .order-details-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    height: calc(100vh - 12px) !important;
+    max-height: calc(100vh - 12px) !important;
+
+    border-radius: 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     CONTENT
+  ========================================== */
+
+  .order-details-content {
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     CLOSE
+  ========================================== */
+
+  .order-details-close {
+    top: 8px !important;
+    right: 8px !important;
+
+    width: 28px !important;
+    height: 28px !important;
+
+    padding: 0 !important;
+  }
+
+  .order-details-close svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+
+  /* ==========================================
+     TABS
+  ========================================== */
+
+  .order-details-tabs {
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    flex-shrink: 0 !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .order-details-tabs::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     DETAILS BODY
+  ========================================== */
+
+  .order-details-body {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: calc(100% - 45px) !important;
+
+    padding: 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  /* ==========================================
+     PRODUCTS
+  ========================================== */
+
+  .order-details-products {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    height: calc(100% - 45px) !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     INVOICE
+  ========================================== */
+
+  .order-details-invoice {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    height: calc(100% - 45px) !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     COMMON MOBILE CONTENT
+  ========================================== */
+
+  .order-details-modal input,
+  .order-details-modal select,
+  .order-details-modal textarea {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+}

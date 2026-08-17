@@ -1,0 +1,157 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.notification-mobile-overlay {
+  display: none;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .notification-drawer {
+    right: 20px !important;
+    top: 75px !important;
+
+    width: 320px !important;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  /* -----------------------------------------
+     Overlay
+  ----------------------------------------- */
+
+  .notification-mobile-overlay {
+    display: block;
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9998;
+
+    background: rgba(0, 0, 0, 0.18);
+  }
+
+
+  /* -----------------------------------------
+     Notification Modal
+  ----------------------------------------- */
+
+  .notification-drawer {
+
+    /* Remove desktop positioning */
+    right: auto !important;
+    top: 50% !important;
+    left: 50% !important;
+
+    /* Center */
+    transform: translate(-50%, -50%) !important;
+
+    /* Size */
+    width: calc(100% - 32px) !important;
+    max-width: 350px;
+
+    height: auto;
+
+    max-height: calc(100vh - 100px);
+
+    /* Appearance */
+    border-radius: 18px !important;
+
+    overflow: hidden;
+
+    box-shadow:
+      0 20px 50px rgba(16, 24, 40, 0.18);
+
+  }
+
+
+  /* -----------------------------------------
+     Header
+  ----------------------------------------- */
+
+  .notification-header {
+
+    height: 54px;
+
+    padding: 14px 16px !important;
+  }
+
+
+  .notification-title {
+
+    font-size: 16px !important;
+
+    line-height: 20px;
+  }
+
+
+  .notification-count {
+
+    width: 18px !important;
+
+    height: 18px !important;
+
+    font-size: 10px !important;
+  }
+
+
+  /* -----------------------------------------
+     List
+  ----------------------------------------- */
+
+  .notification-list {
+
+    max-height: calc(100vh - 155px);
+
+    overflow-y: auto;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+  .notification-drawer {
+
+    width: calc(100% - 24px) !important;
+
+    max-width: 340px;
+
+    border-radius: 16px !important;
+  }
+
+
+  .notification-header {
+
+    height: 50px;
+
+    padding: 12px 14px !important;
+  }
+
+
+  .notification-title {
+
+    font-size: 15px !important;
+  }
+
+}

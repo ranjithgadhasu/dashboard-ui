@@ -1,0 +1,78 @@
+
+
+import avatar from "../../../../assets/images/FavoriteImage.png";
+
+export const contactsListData = [
+  {
+    id: 1,
+    name: "Regina Cooper",
+    designation: "Manager",
+    badgeColor: "green",
+    email: "cooper@example.com",
+    phone: "+1 (070) 123-4567",
+    image: avatar,
+  },
+  {
+    id: 2,
+    name: "Judith Black",
+    designation: "Creative Director",
+    badgeColor: "yellow",
+    email: "black@example.com",
+    phone: "+1 (070) 123-8459",
+    image: avatar,
+  },
+  {
+    id: 3,
+    name: "Ronald Robertson",
+    designation: "Manager",
+    badgeColor: "green",
+    email: "robe@example.com",
+    phone: "+1 (070) 123-9221",
+    image: avatar,
+  },
+  {
+    id: 4,
+    name: "Dustin Williamson",
+    designation: "Designer",
+    badgeColor: "red",
+    email: "williams@example.com",
+    phone: "+1 (070) 123-0507",
+    image: avatar,
+  },
+  {
+    id: 5,
+    name: "Calvin Flores",
+    designation: "Manager",
+    badgeColor: "green",
+    email: "flores@example.com",
+    phone: "+1 (070) 123-4567",
+    image: avatar,
+  },
+  {
+    id: 6,
+    name: "Robert Edwards",
+    designation: "Developer",
+    badgeColor: "blue",
+    email: "edwards@example.com",
+    phone: "+1 (070) 123-11477",
+    image: avatar,
+  },
+  {
+    id: 7,
+    name: "Colleen Warren",
+    designation: "Manager",
+    badgeColor: "green",
+    email: "warren@example.com",
+    phone: "+1 (070) 123-9127",
+    image: avatar,
+  },
+  {
+    id: 8,
+    name: "Bessie Henry",
+    designation: "Designer",
+    badgeColor: "red",
+    email: "henry@example.com",
+    phone: "+1 (070) 123-4567",
+    image: avatar,
+  },
+];

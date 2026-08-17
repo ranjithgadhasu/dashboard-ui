@@ -1,0 +1,76 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     ACTION MENU
+  ========================================== */
+
+  .customer-action-menu {
+    position: relative !important;
+
+    display: inline-block !important;
+  }
+
+
+  /* ==========================================
+     TRIGGER
+  ========================================== */
+
+  .customer-action-trigger {
+    width: 22px !important;
+    height: 22px !important;
+
+    padding: 3px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .customer-action-trigger svg {
+    width: 11px !important;
+    height: 11px !important;
+  }
+
+
+  /* ==========================================
+     DROPDOWN
+  ========================================== */
+
+  .customer-action-dropdown {
+    position: absolute !important;
+
+    right: 0 !important;
+    top: 25px !important;
+
+    width: 110px !important;
+
+    border-radius: 8px !important;
+
+    z-index: 9999 !important;
+  }
+
+
+  /* ==========================================
+     MENU ITEMS
+  ========================================== */
+
+  .customer-action-item {
+    height: 28px !important;
+
+    padding: 5px 8px !important;
+
+    gap: 6px !important;
+
+    font-size: 8px !important;
+
+    line-height: 1 !important;
+  }
+
+  .customer-action-item svg {
+    width: 11px !important;
+    height: 11px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+}

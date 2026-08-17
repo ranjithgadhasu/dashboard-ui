@@ -1,0 +1,81 @@
+/* ============================================
+   STATISTICS CHART TWO - MOBILE
+   0px - 767px
+============================================ */
+
+@media (max-width: 767px) {
+
+  .statistics-chart-card-two {
+    width: 365px !important;
+    height: 420px;
+
+    padding: 20px !important;
+
+    margin-top: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    order: 10 !important;
+  }
+
+
+  /* Header */
+
+  .statistics-chart-header-two {
+    width: 100% !important;
+
+    margin-bottom: 20px !important;
+  }
+
+
+  .statistics-chart-header-two h2 {
+    font-size: 18px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* Chart */
+
+  .statistics-chart-area-two {
+    width: 100% !important;
+
+    height: 270px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* Legend */
+
+  .statistics-chart-legend-two {
+    margin-left: 0 !important;
+
+    margin-top: 12px !important;
+
+    display: flex !important;
+
+    flex-wrap: wrap !important;
+
+    justify-content: center !important;
+
+    gap: 12px !important;
+
+    width: 100% !important;
+  }
+
+
+  .statistics-chart-legend-item-two {
+    gap: 6px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  .statistics-chart-legend-item-two span:last-child {
+    font-size: 12px !important;
+  }
+
+}

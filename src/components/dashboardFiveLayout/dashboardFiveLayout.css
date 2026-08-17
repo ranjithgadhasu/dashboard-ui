@@ -1,0 +1,73 @@
+/* ==========================================
+   MENU BUTTON
+========================================== */
+
+.dashboard-five-menu-button {
+  display: none !important;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .dashboard-five-menu-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .dashboard-five-sidebar {
+    width: 260px !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.3s ease-in-out !important;
+    align-items: flex-start !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  /* OPEN */
+
+  .dashboard-five-sidebar.dashboard-five-sidebar-open {
+    transform: translateX(0) !important;
+    width: 70px !important;
+    height: 120vh;
+  }
+
+  /* Logo */
+
+  .dashboard-five-sidebar > div:first-child {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Menu */
+
+  .dashboard-five-sidebar nav {
+    width: 200px !important;
+    align-items: center !important;
+  }
+
+  /* Menu items */
+
+  .dashboard-five-sidebar nav a {
+    width: 200px !important;
+    justify-content: flex-start !important;
+    padding-left: 20px !important;
+  }
+
+  /* Overlay */
+
+  .dashboard-five-sidebar-overlay {
+    display: block !important;
+    position: fixed !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    z-index: 999 !important;
+  }
+}

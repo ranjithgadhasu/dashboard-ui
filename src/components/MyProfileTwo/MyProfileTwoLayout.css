@@ -1,0 +1,373 @@
+/* =========================================
+   MAIN LAYOUT
+========================================= */
+
+.my-profile-two-layout {
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background: #f3f4f5;
+}
+
+
+/* =========================================
+   APPLICATION SIDEBAR - DESKTOP
+========================================= */
+
+.my-profile-two-sidebar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 220px;
+    height: 100vh;
+
+    z-index: 1200;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.my-profile-two-main {
+    display: flex;
+
+    flex: 1;
+    flex-direction: column;
+
+    min-width: 0;
+    height: 100vh;
+
+    margin-left: 220px;
+
+    overflow: hidden;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.my-profile-two-header {
+    width: 100%;
+
+    height: 64px;
+
+    flex-shrink: 0;
+
+    position: relative;
+
+    z-index: 1100;
+}
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.my-profile-two-content {
+    flex: 1;
+
+    min-width: 0;
+    min-height: 0;
+
+    width: 100%;
+
+    padding: 14px 20px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.my-profile-two-grid {
+    display: grid;
+
+    grid-template-columns: 175px minmax(0, 1fr);
+
+    gap: 14px;
+
+    width: 100%;
+
+    min-width: 0;
+}
+
+
+/* =========================================
+   PROFILE SIDEBAR
+========================================= */
+
+.my-profile-two-profile-sidebar {
+    min-width: 0;
+}
+
+
+/* =========================================
+   FEED
+========================================= */
+
+.my-profile-two-feed {
+    min-width: 0;
+}
+
+
+/* =========================================
+   OVERLAY
+========================================= */
+
+.my-profile-two-overlay {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    /* -----------------------------------------
+       MAIN LAYOUT
+    ----------------------------------------- */
+
+    .my-profile-two-layout {
+        display: block !important;
+
+        width: 100% !important;
+
+        height: 100vh !important;
+
+        min-width: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* -----------------------------------------
+       SIDEBAR
+    ----------------------------------------- */
+
+    .my-profile-two-sidebar {
+
+        position: fixed !important;
+
+        top: 0 !important;
+        left: 0 !important;
+
+        width: 290px !important;
+
+        max-width: 82vw !important;
+
+        height: 100vh !important;
+
+        z-index: 2000 !important;
+
+        background: #ffffff !important;
+
+        transform: translateX(-100%) !important;
+
+        transition: transform 0.3s ease-in-out !important;
+
+        box-shadow: 6px 0 25px rgba(0, 0, 0, 0.16) !important;
+
+        overflow-y: auto !important;
+    }
+
+
+    /* Sidebar OPEN */
+
+    .my-profile-two-sidebar.my-profile-two-sidebar-open {
+        transform: translateX(0) !important;
+    }
+
+
+    /* -----------------------------------------
+       OVERLAY
+    ----------------------------------------- */
+
+    .my-profile-two-overlay {
+
+        display: block !important;
+
+        position: fixed !important;
+
+        inset: 0 !important;
+
+        z-index: 1900 !important;
+
+        background: rgba(0, 0, 0, 0.38) !important;
+    }
+
+
+    /* -----------------------------------------
+       MAIN
+    ----------------------------------------- */
+
+    .my-profile-two-main {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        height: 100vh !important;
+
+        margin-left: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* -----------------------------------------
+       HEADER
+    ----------------------------------------- */
+
+    .my-profile-two-header {
+
+        width: 100% !important;
+
+        height: 64px !important;
+
+        flex-shrink: 0 !important;
+
+        position: relative !important;
+
+        z-index: 1500 !important;
+    }
+
+
+    /* -----------------------------------------
+       CONTENT
+    ----------------------------------------- */
+
+    .my-profile-two-content {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        min-height: 0 !important;
+
+        padding: 12px !important;
+
+        overflow-x: hidden !important;
+
+        overflow-y: auto !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* -----------------------------------------
+       GRID
+    ----------------------------------------- */
+
+    .my-profile-two-grid {
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        gap: 14px !important;
+    }
+
+
+    /* -----------------------------------------
+       PROFILE SIDEBAR
+    ----------------------------------------- */
+
+    .my-profile-two-profile-sidebar {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* -----------------------------------------
+       FEED
+    ----------------------------------------- */
+
+    .my-profile-two-feed {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        margin: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* -----------------------------------------
+       HEADER MOBILE
+    ----------------------------------------- */
+
+    .dashboard-header-inner {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+
+    .dashboard-header-right {
+        gap: 5px !important;
+    }
+
+
+    .dashboard-header-divider {
+        display: none !important;
+    }
+
+
+    .dashboard-profile-name,
+    .dashboard-profile-arrow {
+        display: none !important;
+    }
+
+
+    .dashboard-profile-image {
+        width: 34px !important;
+        height: 34px !important;
+    }
+
+
+    .dashboard-menu-btn {
+        display: flex !important;
+
+        width: 40px !important;
+        height: 40px !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

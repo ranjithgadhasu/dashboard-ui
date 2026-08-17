@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     MODAL OVERLAY
+  ========================================== */
+  .customer-modal-overlay {
+    padding: 0 !important;
+    margin-top: -70px !important;
+    margin-left: -50px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+  }
+  /* ==========================================
+     MODAL
+  ========================================== */
+  .customer-modal {
+    width: 350px !important;
+    max-width: calc(100vw - 20px) !important;
+
+    height: 650px !important;
+    max-height: calc(100vh - 20px) !important;
+
+    border-radius: 14px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     MODAL BODY
+  ========================================== */
+
+  .customer-modal-body {
+    width: 100% !important;
+
+    height: calc(100% - 60px) !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .tabs-button{
+    width: 360px !important;
+  }
+  .tabs-button .text-button{
+    font-size: 8px !important;
+  }
+}

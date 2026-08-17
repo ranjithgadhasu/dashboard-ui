@@ -1,0 +1,169 @@
+/* =========================================
+   MAIN
+   ========================================= */
+
+.file-manager-two {
+    min-width: 0;
+}
+
+.file-manager-two-main {
+    min-width: 0;
+    min-height: 0;
+}
+
+
+/* =========================================
+   DESKTOP
+   ========================================= */
+
+@media (min-width: 992px) {
+
+    .file-manager-two-sidebar {
+        display: block;
+
+        flex: 0 0 auto;
+    }
+
+    .file-manager-two-body {
+        display: flex !important;
+
+        flex-direction: row !important;
+
+        min-width: 0;
+        min-height: 0;
+
+        overflow: hidden !important;
+    }
+
+    .file-manager-two-files {
+        flex: 1 1 auto;
+
+        min-width: 0;
+        min-height: 0;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .file-manager-two-preview {
+        flex: 0 0 290px;
+
+        width: 290px;
+        min-width: 290px;
+
+        height: 100%;
+
+        overflow-y: auto;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .file-manager-two {
+        width: 100% !important;
+
+        height: 100vh !important;
+
+        overflow: hidden !important;
+    }
+
+    .file-manager-two-main {
+        width: 100% !important;
+
+        min-width: 0 !important;
+        min-height: 0 !important;
+    }
+
+
+    /* -----------------------------------------
+       Sidebar
+       ----------------------------------------- */
+
+    .file-manager-two-sidebar {
+        display: none;
+    }
+
+
+    .file-manager-two-sidebar.is-open {
+        display: block;
+
+        position: fixed;
+
+        top: 64px;
+        left: 0;
+
+        width: 280px;
+        height: calc(100vh - 64px);
+
+        z-index: 1001;
+
+        background: #ffffff;
+
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
+
+        overflow-y: auto;
+    }
+
+
+    /* -----------------------------------------
+       Content
+       ----------------------------------------- */
+
+    .file-manager-two-body {
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        width: 100% !important;
+
+        min-width: 0 !important;
+        min-height: 0 !important;
+
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+
+
+    /* 1. File List */
+
+    .file-manager-two-files {
+        order: 1 !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+
+        height: auto !important;
+
+        flex: none !important;
+
+        overflow: visible !important;
+    }
+
+
+    /* 2. Sidebar */
+
+    .file-manager-two-sidebar {
+        order: 2 !important;
+    }
+
+
+    /* 3. Preview */
+
+    .file-manager-two-preview {
+        order: 3 !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+
+        height: auto !important;
+
+        flex: none !important;
+
+        overflow: visible !important;
+    }
+}

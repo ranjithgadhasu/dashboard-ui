@@ -1,0 +1,79 @@
+/* ==========================================
+   ACTIVE TASKS - MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .active-tasks-card {
+    width: 350px !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  /* Header */
+
+  .active-tasks-header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+    width: 100% !important;
+  }
+
+  .active-tasks-header h2 {
+    font-size: 18px !important;
+  }
+
+  /* Tabs */
+
+  .active-tasks-tabs {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    box-sizing: border-box !important;
+  }
+
+  .active-tasks-tabs button {
+    min-width: 0 !important;
+    flex: 1 !important;
+    padding: 8px 10px !important;
+    font-size: 13px !important;
+  }
+
+  /* Task List */
+
+  .active-tasks-list {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+
+  /* Individual Task */
+
+  .task-item {
+    width: 100% !important;
+    gap: 8px !important;
+  }
+
+  .task-item-content {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  .task-item-text {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  .task-item-text p {
+    line-height: 1.5 !important;
+    word-break: break-word !important;
+  }
+
+  .task-item-menu {
+    flex-shrink: 0 !important;
+    margin-top: 4px !important;
+  }
+}

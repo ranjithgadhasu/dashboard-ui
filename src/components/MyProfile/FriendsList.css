@@ -1,0 +1,245 @@
+/* =========================================
+   FRIENDS CARD
+   ========================================= */
+
+.friends-list-card {
+    width: 290px;
+
+    margin-left: 24px;
+
+    border: 1px solid #e8e8e8;
+
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    padding: 16px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.friends-list-header {
+    width: 100%;
+}
+
+.friends-list-title {
+    margin: 0;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    line-height: 18px;
+
+    color: #333333;
+}
+
+.friends-list-count {
+    margin: 2px 0 0;
+
+    font-size: 9px;
+
+    line-height: 12px;
+
+    color: #aaaaaa;
+}
+
+
+/* =========================================
+   FRIEND ITEMS
+   ========================================= */
+
+.friends-list-items {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 16px;
+}
+
+
+/* =========================================
+   SINGLE FRIEND
+   ========================================= */
+
+.friend-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    width: 100%;
+
+    min-width: 0;
+}
+
+
+/* =========================================
+   AVATAR
+   ========================================= */
+
+.friend-avatar-wrapper {
+    position: relative;
+
+    width: 40px;
+
+    height: 40px;
+
+    flex-shrink: 0;
+}
+
+.friend-avatar {
+    width: 40px;
+
+    height: 40px;
+
+    display: block;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================
+   ONLINE STATUS
+   ========================================= */
+
+.friend-online {
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 10px;
+
+    height: 10px;
+
+    border: 2px solid #ffffff;
+
+    border-radius: 50%;
+
+    background: #58a447;
+}
+
+
+/* =========================================
+   DETAILS
+   ========================================= */
+
+.friend-details {
+    min-width: 0;
+
+    flex: 1;
+}
+
+.friend-name {
+    margin: 0;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 18px;
+
+    color: #444444;
+}
+
+.friend-role {
+    margin: 2px 0 0;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    font-size: 12px;
+
+    font-weight: 400;
+
+    line-height: 16px;
+
+    color: #aaaaaa;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .friends-list-card {
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin-left: 0 !important;
+
+        margin-right: 0 !important;
+
+        padding: 14px !important;
+
+        border-radius: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .friends-list-items {
+        gap: 10px !important;
+
+        margin-top: 14px !important;
+    }
+
+
+    .friend-item {
+        gap: 10px !important;
+    }
+
+
+    .friend-avatar-wrapper,
+    .friend-avatar {
+        width: 36px !important;
+
+        height: 36px !important;
+    }
+
+
+    .friend-online {
+        width: 9px !important;
+
+        height: 9px !important;
+    }
+
+
+    .friend-name {
+        font-size: 13px !important;
+
+        line-height: 17px !important;
+    }
+
+
+    .friend-role {
+        font-size: 11px !important;
+
+        line-height: 15px !important;
+    }
+
+}

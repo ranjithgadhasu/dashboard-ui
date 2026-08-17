@@ -1,0 +1,31 @@
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width: 767px) {
+
+  .products-grid {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 8px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  .product-card {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    flex: none !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 12px !important;
+  }
+}

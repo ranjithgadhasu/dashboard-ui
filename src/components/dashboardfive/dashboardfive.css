@@ -1,0 +1,205 @@
+.mobile-header {
+  display: none;
+}
+
+@media (max-width: 767px) {
+
+  .mobile-header {
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+    height: 56px;
+
+    padding: 0 14px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #E9EEF5;
+
+    gap: 12px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+  }
+
+  .mobile-menu-button {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    border-radius: 8px;
+
+    background: #F8F9FB;
+
+    color: #3F434A;
+  }
+
+  .mobile-header-title {
+    margin: 0;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    color: #3F434A;
+  }
+
+  /*Dashboard Five*/
+
+  .dashboard-five {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 16px !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ==========================================
+     LEFT CONTENT
+  ========================================== */
+
+  .dashboard-five-left {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .dashboard-five-left > .dashboard-header {
+    width: 100% !important;
+  }
+
+
+  /* ==========================================
+     SUMMARY + STATISTICS
+  ========================================== */
+
+  .dashboard-five-summary {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 16px !important;
+  }
+
+  .dashboard-five-summary-cards,
+  .dashboard-five-statistics {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+  /* ==========================================
+     PROJECTS + ACTIVE TASKS
+  ========================================== */
+
+  .dashboard-five-projects {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 16px !important;
+  }
+
+  .dashboard-five-projects-card,
+  .dashboard-five-active-tasks {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+  /* ==========================================
+     POSTING TASKS
+  ========================================== */
+
+  .dashboard-five-posting-tasks {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+  /* ==========================================
+     RIGHT SIDEBAR
+  ========================================== */
+
+  .dashboard-five-right {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 16px !important;
+
+    background: transparent !important;
+  }
+
+
+  /* ==========================================
+     ALL RIGHT SIDEBAR CARDS
+  ========================================== */
+
+  .dashboard-five-right > * {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /*.dashboard-header*/
+ .dashboard-five-header {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    gap: 10px !important;
+  }
+
+  .dashboard-five-header h1 {
+    margin-left: 0 !important;
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+
+    white-space: nowrap !important;
+  }
+
+  .dashboard-five-header-actions {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  /* Download button */
+
+  .dashboard-five-header-actions button:first-child {
+    width: 38px !important;
+    height: 38px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Add Task button */
+
+  .dashboard-five-header-actions button:last-child {
+    padding: 9px 14px !important;
+    font-size: 13px !important;
+    white-space: nowrap !important;
+  }
+  .dashboard-five-header .overview-hone{
+    margin-left: 2rem !important;
+  }
+}

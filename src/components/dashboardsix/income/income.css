@@ -1,0 +1,27 @@
+/* ==========================================
+   MOBILE - INCOME CARDS
+========================================== */
+
+@media (max-width: 767px) {
+
+    .income-cards {
+        width: 250px !important;
+        margin-top: 90px;
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 60px;
+        align-items: center !important;
+
+        gap: 20px !important;
+    }
+
+    .income-card {
+        width: 100% !important;
+        max-width: 350px !important;
+        height: 186px !important;
+
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+}

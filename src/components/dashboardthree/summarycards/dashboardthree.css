@@ -1,0 +1,217 @@
+/* ============================================
+   SUMMARY CARDS - MOBILE
+   0px - 767px
+============================================ */
+
+@media (max-width: 767px) {
+
+  .summary-cards {
+    width: 365px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    order: 3 !important;
+  }
+
+
+  /* Individual card */
+
+  .summary-card-item {
+    width: 100% !important;
+
+    flex: none !important;
+
+    padding: 16px 20px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* Remove vertical divider on mobile */
+
+  .summary-card-item::after {
+    display: none !important;
+  }
+
+
+  /* Add horizontal divider between cards */
+
+  .summary-card-item:not(:last-child) {
+    border-bottom: 1px solid #E9EEF5;
+  }
+
+  /*statistics-chart*/
+   .statistics-chart-card {
+    width: 365px !important;
+
+
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    order: 6 !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .statistics-chart-card > div:first-child {
+    width: 100% !important;
+  }
+
+
+  .statistics-chart-stats {
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: flex-start !important;
+
+    gap: 16px !important;
+
+    width: 100% !important;
+
+    margin-top: 20px !important;
+  }
+
+
+  .statistics-chart-stat {
+    width: 100% !important;
+
+    gap: 12px !important;
+  }
+
+
+  /* ==========================================
+     CALENDAR
+  ========================================== */
+
+  .statistics-chart-card button {
+    flex-shrink: 0 !important;
+  }
+
+
+  /* ==========================================
+     CHART
+  ========================================== */
+
+  .statistics-chart-area {
+    width: 100% !important;
+
+    height: 260px !important;
+
+    margin-top: 20px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /*Balanece Card*/
+
+
+  .balance-card {
+    width: 365px !important;
+    margin-top: 520px;
+   margin-left: -258px;
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    order: 7 !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .balance-card-header {
+    width: 100% !important;
+  }
+
+
+  /* ==========================================
+     AMOUNT
+  ========================================== */
+
+  .balance-card-amount {
+    margin-top: 24px !important;
+
+    font-size: 30px !important;
+  }
+
+
+  /* ==========================================
+     TABS
+  ========================================== */
+
+  .balance-card-tabs {
+    margin-top: 24px !important;
+
+    gap: 12px !important;
+  }
+
+
+  /* ==========================================
+     CHART
+  ========================================== */
+
+  .balance-card-chart {
+    width: 100% !important;
+
+    height: 145px !important;
+
+    margin-top: 28px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     BOTTOM DOTS
+  ========================================== */
+
+  .balance-card-dots {
+    width: 100% !important;
+
+    margin-top: 10px !important;
+
+    gap: 4px !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     FOOTER
+  ========================================== */
+
+  .balance-card-footer {
+    width: 100% !important;
+
+    margin-top: 24px !important;
+
+    gap: 16px !important;
+  }
+
+
+  .balance-card-footer-item {
+    min-width: 0 !important;
+
+    font-size: 13px !important;
+  }
+
+}

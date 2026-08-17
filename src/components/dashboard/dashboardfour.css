@@ -1,0 +1,66 @@
+/* ==========================================
+   DASHBOARD FOUR - MOBILE
+   0px - 767px
+========================================== */
+
+@media (max-width: 767px) {
+
+  /* Statistics + Analytics */
+
+  .dashboard-four-charts {
+    display: flex !important;
+    flex-direction: column !important;
+
+    width: 100% !important;
+
+    gap: 14px !important;
+  }
+
+  .dashboard-four-statistics,
+  .dashboard-four-analytics {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    margin-top: 0 !important;
+  }
+
+
+  /* Main cards */
+
+  .dashboard-four-cards {
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    width: 100% !important;
+
+    gap: 14px !important;
+
+    margin-top: 14px !important;
+  }
+
+
+  /* Every card */
+
+  .dashboard-four-card,
+  .dashboard-four-online-users {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    margin-top: 0 !important;
+
+    margin-bottom: 0 !important;
+
+    flex: none !important;
+  }
+
+
+  /* Remove desktop row spanning */
+
+  .dashboard-four-online-users {
+    grid-row: auto !important;
+  }
+
+}

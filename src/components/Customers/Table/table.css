@@ -1,0 +1,132 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     CUSTOMERS TABLE WRAPPER
+  ========================================== */
+
+  .customers-table-wrapper {
+    width: 360px !important;
+    border-radius: 0 0 12px 12px !important;
+    margin-left: -10px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     TABLE SCROLL
+  ========================================== */
+
+  .customers-table-scroll {
+    width: 360px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    scrollbar-width: none !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    box-sizing: border-box !important;
+  }
+
+  .customers-table-scroll::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     TABLE
+  ========================================== */
+
+  .customers-table {
+    width: 360px !important;
+
+    table-layout: auto !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .customers-table thead th {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+
+    font-size: 8px !important;
+
+    line-height: 1.2 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     TABLE BODY
+  ========================================== */
+
+  .customers-table tbody td {
+    padding: 8px 6px !important;
+    font-size: 8px !important;
+    line-height: 1.3 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     CUSTOMER IMAGE
+  ========================================== */
+
+  .customers-table img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+
+  /* ==========================================
+     CHECKBOX
+  ========================================== */
+
+  .customers-table input[type="checkbox"] {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+
+  /* ==========================================
+     CUSTOMER NAME
+  ========================================== */
+
+  .customers-table td:first-child {
+    min-width: 35px !important;
+  }
+
+
+  /* ==========================================
+     STATUS / BADGES
+  ========================================== */
+
+  .customers-table [class*="status"],
+  .customers-table [class*="badge"] {
+    font-size: 7px !important;
+
+    padding: 2px 5px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  .tableheader-row{
+    width: 300px !important;
+  }
+
+  .table-body{
+    width: 360px !important;
+  }
+
+}

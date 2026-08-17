@@ -1,0 +1,126 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     PRODUCT TABLE
+  ========================================== */
+
+  .products-desktop-table {
+    width: 365px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    margin-left: -20px;
+    border-radius: 10px !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none !important;
+  }
+
+  .products-desktop-table::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     TABLE
+  ========================================== */
+
+  .products-table {
+    width: 300px !important;
+   margin-left: 30px;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .products-table-head {
+    height: 40px !important;
+  }
+
+  .products-table-head th {
+    height: 40px !important;
+
+    /*padding: 5px 6px !important;*/
+
+    white-space: nowrap !important;
+  }
+
+
+  /* Header text */
+
+  .products-table-head span {
+    font-size: 7px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.2px !important;
+  }
+
+  .products-table-head svg {
+    width: 9px !important;
+    height: 9px !important;
+  }
+
+
+  /* ==========================================
+     CHECKBOX
+  ========================================== */
+
+  .products-checkbox-head {
+    width: 32px !important;
+    min-width: 32px !important;
+  }
+
+  .products-checkbox-head input {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+
+  /* ==========================================
+     PRODUCT NAME
+  ========================================== */
+
+  .products-product-name-head {
+    width: 160px !important;
+    min-width: 160px !important;
+
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+
+  /* ==========================================
+     OTHER COLUMNS
+  ========================================== */
+
+  .products-column-head {
+    min-width: 70px !important;
+
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+
+  /* ==========================================
+     ACTION
+  ========================================== */
+
+  .products-action-head {
+    width: 30px !important;
+    min-width: 30px !important;
+  }
+
+
+  /* ==========================================
+     PAGINATION
+  ========================================== */
+
+  .products-pagination {
+    width: 100% !important;
+
+    margin-top: 8px !important;
+  }
+
+}

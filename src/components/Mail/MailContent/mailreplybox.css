@@ -1,0 +1,91 @@
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .mail-reply-toolbar {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .mail-reply-box {
+    border-radius: 14px;
+  }
+
+  /* To section */
+  .mail-reply-to {
+    padding: 12px !important;
+    gap: 10px;
+  }
+
+  .mail-reply-to > div:first-child {
+    min-width: 0;
+  }
+
+  .mail-reply-to > div:last-child {
+    gap: 10px !important;
+    font-size: 13px !important;
+  }
+
+  /* Toolbar */
+  .mail-reply-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 16px !important;
+    padding: 12px !important;
+  }
+
+  .mail-reply-toolbar svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .mail-reply-toolbar .h-6 {
+    height: 20px;
+  }
+
+  /* Editor */
+  .mail-reply-editor {
+    min-height: 180px !important;
+    padding: 14px !important;
+    font-size: 15px !important;
+  }
+
+  /* Footer */
+  .mail-reply-footer {
+    padding: 12px !important;
+    padding-bottom: 14px !important;
+  }
+
+  .mail-reply-footer button:first-child {
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 15px;
+  }
+
+  .mail-reply-footer button:nth-child(2) {
+    width: 46px;
+    height: 42px;
+  }
+
+  .mail-reply-footer button:nth-child(3) {
+    margin-left: 16px !important;
+  }
+
+  .mail-reply-footer button:nth-child(3) svg {
+    width: 20px;
+    height: 20px;
+  }
+}

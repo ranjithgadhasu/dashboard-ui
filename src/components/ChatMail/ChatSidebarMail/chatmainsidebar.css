@@ -1,0 +1,59 @@
+/* =========================================
+   CHAT MOBILE SIDEBAR
+========================================= */
+
+.chat-main-sidebar-mail {
+  transition: transform 0.3s ease-in-out;
+}
+
+.chat-mobile-menu-button {
+  transition: all 0.2s ease;
+}
+
+.chat-mobile-sidebar-overlay {
+  backdrop-filter: blur(1px);
+}
+
+.chat-mobile-sidebar-close {
+  transition: background-color 0.2s ease;
+}
+
+.chat-sidebar-logo {
+  flex-shrink: 0;
+}
+
+.chat-sidebar-menu {
+  width: 100%;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .chat-mobile-menu-button {
+    display: flex;
+  }
+
+  .chat-main-sidebar-mail {
+    width: 88px;
+  }
+
+}
+
+
+/* =========================================
+   DESKTOP
+========================================= */
+
+@media (min-width: 768px) {
+
+  .chat-mobile-menu-button,
+  .chat-mobile-sidebar-overlay,
+  .chat-mobile-sidebar-close {
+    display: none;
+  }
+
+}

@@ -1,0 +1,215 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     IMAGES TAB
+  ========================================== */
+
+  .images-tab {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+  }
+
+
+  /* ==========================================
+     TITLE
+  ========================================== */
+
+  .images-tab-title {
+    margin-bottom: 10px !important;
+
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+
+
+  /* ==========================================
+     UPLOAD BOX
+  ========================================== */
+
+  .images-upload-box {
+    width: 100% !important;
+
+    height: 100px !important;
+
+    padding: 10px !important;
+
+    border-radius: 12px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  .images-upload-icon {
+    width: 24px !important;
+    height: 24px !important;
+
+    margin-bottom: 8px !important;
+  }
+
+
+  .images-upload-text {
+    font-size: 11px !important;
+
+    text-align: center !important;
+  }
+
+
+  /* ==========================================
+     IMAGE LIST
+  ========================================== */
+
+  .images-list {
+    width: 100% !important;
+
+    margin-top: 16px !important;
+
+    overflow-x: hidden !important;
+  }
+
+
+  /* ==========================================
+     LIST HEADER
+  ========================================== */
+
+  .images-list-header {
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      32px
+      1fr
+      55px
+      55px
+      28px !important;
+
+    gap: 4px !important;
+
+    padding: 0 6px !important;
+
+    margin-bottom: 6px !important;
+
+    box-sizing: border-box !important;
+
+    font-size: 9px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     IMAGE ROW
+  ========================================== */
+
+  .images-list-row {
+    width: 100% !important;
+    min-width: 0 !important;
+
+    height: 64px !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      32px
+      1fr
+      55px
+      55px
+      28px !important;
+
+    gap: 4px !important;
+
+    margin-bottom: 8px !important;
+
+    padding: 5px !important;
+
+    border-radius: 10px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     DRAG
+  ========================================== */
+
+  .images-drag svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+
+  /* ==========================================
+     IMAGE
+  ========================================== */
+
+  .images-preview {
+    width: 44px !important;
+    height: 44px !important;
+
+    border-radius: 7px !important;
+  }
+
+  .images-preview svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+
+  /* ==========================================
+     POSITION
+  ========================================== */
+
+  .images-position span {
+    padding: 3px 7px !important;
+
+    font-size: 9px !important;
+
+    border-radius: 6px !important;
+  }
+
+
+  /* ==========================================
+     COVER
+  ========================================== */
+
+  .images-cover svg {
+    width: 17px !important;
+    height: 17px !important;
+  }
+
+
+  /* ==========================================
+     DELETE
+  ========================================== */
+
+  .images-delete svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+
+  /* ==========================================
+     BUTTONS
+  ========================================== */
+
+  .images-buttons {
+    margin-top: 14px !important;
+
+    gap: 8px !important;
+  }
+
+  .images-buttons button {
+    height: 34px !important;
+
+    padding: 0 16px !important;
+
+    font-size: 10px !important;
+
+    border-radius: 7px !important;
+  }
+
+}

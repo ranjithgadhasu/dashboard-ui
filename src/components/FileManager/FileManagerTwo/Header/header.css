@@ -1,0 +1,73 @@
+/* =========================================
+   HEADER - MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .file-manager-two-header {
+
+        width: 100% !important;
+
+        height: auto !important;
+
+        min-height: 64px !important;
+
+        padding: 10px 8px !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: stretch !important;
+
+        justify-content: center !important;
+
+        gap: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       SEARCH
+       ===================================== */
+
+    .file-manager-two-header-search {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        flex: none !important;
+
+        min-width: 0 !important;
+    }
+
+
+    /* =====================================
+       RIGHT ACTIONS
+       ===================================== */
+
+    .file-manager-two-header-actions {
+
+        width: 100% !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: space-between !important;
+
+        gap: 10px !important;
+    }
+
+
+    /* =====================================
+       UPLOAD
+       ===================================== */
+
+    .file-manager-two-header-actions button {
+
+        min-height: 40px;
+    }
+}

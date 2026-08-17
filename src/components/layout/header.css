@@ -1,0 +1,77 @@
+/* ==========================================
+   MOBILE HEADER
+========================================== */
+
+@media (max-width: 767px) {
+
+  .dashboard-header-mobile {
+    height: 68px !important;
+    width: 370px !important;
+  }
+
+  .dashboard-header-inner {
+    padding: 0 12px !important;
+  }
+  /*.dashboard-header-mobile-two{
+    margin-left: -85px;
+  }*/
+
+  .dashboard-header-right {
+    gap: 6px !important;
+  }
+
+  .dashboard-menu-btn {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 6px !important;
+  }
+
+  .dashboard-menu-icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  /* Search - hide on mobile */
+  .dashboard-header-right
+    > .dashboard-header-icon-btn:first-child {
+    display: none !important;
+  }
+
+  .dashboard-header-icon-btn {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .dashboard-notification-icon {
+    width: 21px !important;
+    height: 21px !important;
+  }
+
+  .dashboard-notification-count {
+    width: 15px !important;
+    height: 15px !important;
+    top: 0 !important;
+    right: 0 !important;
+
+    font-size: 8px !important;
+  }
+
+  .dashboard-header-divider {
+    height: 26px !important;
+    margin: 0 2px !important;
+  }
+
+  .dashboard-profile-btn {
+    padding: 2px !important;
+  }
+
+  .dashboard-profile-image {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  .dashboard-profile-name,
+  .dashboard-profile-arrow {
+    display: none !important;
+  }
+}

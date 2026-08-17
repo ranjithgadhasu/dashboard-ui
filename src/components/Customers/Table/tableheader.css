@@ -1,0 +1,139 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     TABLE OUTER AREA
+  ========================================== */
+
+  .customers-table-wrapper {
+    width: 350px !important;
+    max-width: 350px !important;
+
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     HORIZONTAL SCROLL AREA
+  ========================================== */
+
+  .customers-table-scroll {
+    width: 350px !important;
+    max-width: 350px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: thin !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     TABLE
+  ========================================== */
+
+  .customers-table {
+    width: 360px !important;
+
+    table-layout: fixed !important;
+
+    border-collapse: collapse !important;
+  }
+
+
+  /* ==========================================
+     HEADER ROW
+  ========================================== */
+
+  .tableheader-row {
+    height: 36px !important;
+  }
+
+
+  /* ==========================================
+     HEADER CELLS
+  ========================================== */
+
+  .tableheader-row th {
+    min-width: 0 !important;
+
+    padding: 4px 5px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     COLUMNS
+  ========================================== */
+
+  .customer-header-checkbox {
+    width: 35px !important;
+    padding-left: 5px !important;
+  }
+
+  .customer-header-customer {
+    width: 210px !important;
+  }
+
+  .customer-header-location {
+    width: 100px !important;
+  }
+
+  .customer-header-phone {
+    width: 100px !important;
+  }
+
+  .customer-header-date {
+    width: 70px !important;
+  }
+
+  .customer-header-status {
+    width: 80px !important;
+  }
+
+  .customer-header-action {
+    width: 35px !important;
+  }
+
+
+  /* ==========================================
+     HEADER TEXT
+  ========================================== */
+
+  .customer-header-title {
+    display: flex !important;
+
+    align-items: center !important;
+
+    min-width: 0 !important;
+
+    font-size: 7px !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     ARROW
+  ========================================== */
+
+  .customer-header-arrow {
+    width: 5px !important;
+    height: 5px !important;
+
+    margin-left: 3px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+}

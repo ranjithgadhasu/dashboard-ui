@@ -1,0 +1,147 @@
+/* ==========================================
+   POSTING TASKS - MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .posting-tasks-card {
+    width: 350px !important;
+    box-sizing: border-box !important;
+    padding: 20px !important;
+    margin-left: 10px;
+    overflow: hidden !important;
+  }
+
+  /* Header */
+
+  .posting-tasks-header {
+    width: 100% !important;
+    gap: 12px !important;
+  }
+
+  .posting-tasks-header-content {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  .posting-tasks-header h2 {
+    font-size: 18px !important;
+  }
+
+  /* Description */
+
+  .posting-tasks-description {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    word-break: break-word !important;
+  }
+
+  /* Menu */
+
+  .posting-tasks-menu {
+    flex-shrink: 0 !important;
+    margin-top: 2px !important;
+  }
+
+  /* Posting Grid */
+
+  .posting-tasks-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+}
+
+
+
+/* ==========================================
+   POSTING GRID
+========================================== */
+
+.posting-grid-wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+
+.posting-grid-scroll {
+  width: 100%;
+}
+
+.posting-grid-row {
+  min-width: 0;
+}
+
+.posting-grid-day {
+  flex-shrink: 0;
+}
+
+.posting-grid-hours {
+  min-width: 0;
+}
+
+.posting-grid-cell {
+  min-width: 28px;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .posting-grid-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .posting-grid-scroll {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow-x: auto !important;
+    overflow-y: visible !important;
+
+    padding-bottom: 8px !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .posting-grid-row {
+    width: max-content !important;
+    min-width: 760px !important;
+  }
+
+  .posting-grid-day {
+    width: 32px !important;
+    min-width: 32px !important;
+    margin-right: 2px !important;
+  }
+
+  .posting-grid-hours {
+    width: max-content !important;
+    min-width: 700px !important;
+
+    grid-template-columns: repeat(23, 28px) !important;
+    gap: 8px !important;
+  }
+
+  .posting-grid-cell {
+    width: 28px !important;
+    min-width: 28px !important;
+  }
+
+  .posting-grid-labels {
+    width: max-content !important;
+    min-width: 700px !important;
+
+    grid-template-columns: repeat(23, 28px) !important;
+    gap: 8px !important;
+
+    margin-left: 34px !important;
+  }
+
+}

@@ -1,0 +1,145 @@
+/* =========================================
+   MODAL - DESKTOP
+   ========================================= */
+
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-container {
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       OVERLAY
+       ===================================== */
+
+    .modal-overlay {
+
+        position: fixed !important;
+
+        inset: 0 !important;
+
+        width: 100vw !important;
+
+        height: 100vh !important;
+
+        padding: 16px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        overflow: hidden !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       MODAL
+       ===================================== */
+
+    .modal-container {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        max-height: calc(100vh - 32px) !important;
+
+        min-height: 0 !important;
+
+        border-radius: 16px !important;
+
+        overflow: hidden !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* =====================================
+       HEADER
+       ===================================== */
+
+    .modal-header {
+
+        width: 100% !important;
+
+        min-height: 64px !important;
+
+        padding: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       TITLE
+       ===================================== */
+
+    .modal-title {
+
+        max-width: calc(100% - 50px) !important;
+
+        font-size: 20px !important;
+
+        line-height: 28px !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+
+        text-overflow: ellipsis !important;
+    }
+
+
+    /* =====================================
+       CLOSE BUTTON
+       ===================================== */
+
+    .modal-close-button {
+
+        width: 36px !important;
+
+        height: 36px !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* =====================================
+       BODY
+       ===================================== */
+
+    .modal-body {
+
+        height: auto !important;
+
+        max-height: calc(100vh - 112px) !important;
+
+        min-height: 0 !important;
+
+        overflow-x: hidden !important;
+
+        overflow-y: auto !important;
+
+        padding: 20px 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+}

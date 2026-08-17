@@ -1,0 +1,244 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.gantt-header-bar {
+    width: 100%;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .gantt-header-bar {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+    .gantt-header-title {
+        font-size: 18px !important;
+    }
+
+    .gantt-header-month {
+        font-size: 18px !important;
+    }
+
+    .gantt-header-year {
+        font-size: 13px !important;
+    }
+
+    .gantt-header-actions {
+        gap: 8px !important;
+    }
+
+    .gantt-header-filter {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
+    .gantt-header-add {
+        height: 40px !important;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+        font-size: 13px !important;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .gantt-header-bar {
+        width: 100%;
+
+        height: 58px;
+
+        padding: 8px 10px !important;
+
+        gap: 6px;
+
+        overflow: hidden;
+    }
+
+
+    /* =================================
+     LEFT - DESIGN PLAN
+  ================================= */
+
+    .gantt-header-title-wrapper {
+        min-width: 0;
+
+        flex: 1 1 auto;
+    }
+
+    .gantt-header-title {
+        max-width: 80px;
+
+        font-size: 10px !important;
+
+        line-height: 16px;
+
+        white-space: normal;
+
+        overflow: hidden;
+    }
+
+    .gantt-header-title-icon {
+        width: 13px;
+
+        height: 13px;
+
+        flex-shrink: 0;
+    }
+
+
+    /* =================================
+     CENTER - MONTH / YEAR
+  ================================= */
+
+    .gantt-header-date {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        flex-shrink: 0;
+
+        gap: 3px;
+    }
+
+    .gantt-header-month {
+        font-size: 16px !important;
+
+        line-height: 20px;
+
+        white-space: nowrap;
+    }
+
+    .gantt-header-year {
+        margin-bottom: 0 !important;
+
+        font-size: 11px !important;
+
+        line-height: 16px;
+
+        white-space: nowrap;
+    }
+
+
+    /* =================================
+     RIGHT ACTIONS
+  ================================= */
+
+    .gantt-header-actions {
+        display: flex;
+
+        align-items: center;
+
+        gap: 5px !important;
+
+        flex-shrink: 0;
+    }
+
+
+    /* Filter */
+
+    .gantt-header-filter {
+        width: 34px !important;
+
+        height: 34px !important;
+
+        flex-shrink: 0;
+
+        border-radius: 9px !important;
+    }
+
+    .gantt-header-filter svg {
+        width: 15px;
+
+        height: 15px;
+    }
+
+
+    /* Add Project */
+
+    .gantt-header-add {
+        height: 36px !important;
+
+        padding-left: 10px !important;
+
+        padding-right: 10px !important;
+
+        gap: 3px !important;
+
+        border-radius: 8px !important;
+
+        font-size: 11px !important;
+
+        white-space: nowrap;
+    }
+
+    .gantt-header-add svg {
+        width: 14px;
+
+        height: 14px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+    .gantt-header-bar {
+        padding-left: 7px !important;
+
+        padding-right: 7px !important;
+
+        gap: 4px;
+    }
+
+    .gantt-header-title {
+        max-width: 65px;
+
+        font-size: 12px !important;
+
+        line-height: 14px;
+    }
+
+    .gantt-header-month {
+        font-size: 14px !important;
+    }
+
+    .gantt-header-year {
+        font-size: 10px !important;
+    }
+
+    .gantt-header-filter {
+        width: 30px !important;
+
+        height: 30px !important;
+    }
+
+    .gantt-header-add {
+        height: 32px !important;
+
+        padding-left: 7px !important;
+
+        padding-right: 7px !important;
+
+        font-size: 10px !important;
+    }
+
+}

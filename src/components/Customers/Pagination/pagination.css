@@ -1,0 +1,127 @@
+@media screen and (max-width: 767px) {
+
+    /* ==========================================
+     CUSTOMERS PAGINATION
+  ========================================== */
+
+    .customers-pagination {
+        width: 100% !important;
+        max-width: 372px !important;
+
+        margin-left: -10px !important;
+
+        min-height: 44px !important;
+
+        padding: 6px !important;
+
+        border-radius: 10px !important;
+
+        gap: 6px !important;
+
+        box-sizing: border-box !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* ==========================================
+     LEFT
+  ========================================== */
+
+    .customers-pagination-left {
+        gap: 5px !important;
+
+        min-width: 0 !important;
+
+        flex-shrink: 1 !important;
+    }
+
+
+    /* ==========================================
+     PAGE SIZE
+  ========================================== */
+
+    .customers-page-size select {
+        width: 42px !important;
+
+        height: 28px !important;
+
+        padding-left: 8px !important;
+        padding-right: 18px !important;
+
+        border-radius: 7px !important;
+
+        font-size: 9px !important;
+    }
+
+    .customers-page-size svg {
+        width: 10px !important;
+        height: 10px !important;
+
+        right: 5px !important;
+    }
+
+
+    /* ==========================================
+     SHOWING
+  ========================================== */
+
+    .customers-showing {
+        font-size: 8px !important;
+
+        line-height: 1.2 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    .customers-showing span {
+        font-size: 8px !important;
+    }
+
+
+    /* ==========================================
+     RIGHT PAGINATION
+  ========================================== */
+
+    .customers-pagination-right {
+        gap: 2px !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* ==========================================
+     PAGINATION BUTTONS
+  ========================================== */
+
+    .customers-pagination .pagination-button {
+        width: 24px !important;
+        height: 24px !important;
+
+        border-radius: 6px !important;
+
+        padding: 0 !important;
+
+        font-size: 8px !important;
+    }
+
+
+    .customers-pagination .pagination-button svg {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+
+    /* ==========================================
+     DOTS
+  ========================================== */
+
+    .customers-pagination .pagination-dots {
+        width: 18px !important;
+        height: 24px !important;
+
+        font-size: 9px !important;
+    }
+
+}

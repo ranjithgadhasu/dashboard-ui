@@ -1,0 +1,757 @@
+/*  MOBILE */
+
+@media (max-width: 767px) {
+
+    .login-page {
+        min-height: 100vh;
+    }
+
+    .login-container {
+        min-height: 100vh;
+        padding: 20px 12px !important;
+        align-items: center;
+    }
+
+    .login-wrapper {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    /* Hide illustration on mobile */
+    .login-image-wrapper {
+        display: none !important;
+    }
+
+    /* Login card */
+    .login-card {
+        width: 100% !important;
+        max-width: 500px !important;
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin-right: 0 !important;
+
+        padding: 28px 20px !important;
+    }
+
+    /* Title */
+    .login-card h2 {
+        font-size: 24px !important;
+    }
+
+    /* Google button */
+    .google-login {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Google icon/text */
+    .google-login svg {
+        flex-shrink: 0;
+    }
+
+    .google-login span {
+        margin-left: 0 !important;
+    }
+
+    /* Divider */
+    .login-divider {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Email / Password */
+    .login-input {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .password-wrapper {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+
+    .password-wrapper .login-input {
+        width: 100% !important;
+    }
+
+    /* Remember + Forgot */
+    .login-options {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Login button */
+    .login-button {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Signup */
+    .signup-section {
+        margin-top: 48px !important;
+    }
+
+    /*Register page*/
+
+    .register-page {
+        min-height: 100vh;
+    }
+
+    .register-container {
+        min-height: 100vh;
+        padding: 20px 12px !important;
+    }
+
+    .register-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        justify-content: center !important;
+
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .register-image-wrapper {
+        display: none !important;
+    }
+
+    .register-card {
+        width: 100% !important;
+        max-width: 500px !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        padding: 25px 20px !important;
+    }
+
+    /* Google */
+    .register-google-btn {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Divider */
+    .register-divider {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* All form fields */
+    .register-field {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .register-input {
+        width: 100% !important;
+    }
+
+    /* Password containers */
+    .register-password-wrapper {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .register-password-wrapper .register-input {
+        width: 100% !important;
+    }
+
+    /* Terms */
+    .register-terms {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Create Account */
+    .register-submit-btn {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Footer */
+    .register-login-footer {
+        margin-top: 40px !important;
+    }
+
+    /*Lock screen*/
+    .lock-screen-page {
+        min-height: 100vh;
+    }
+
+    .lock-screen-container {
+        min-height: 100vh;
+        padding: 20px 12px !important;
+    }
+
+    .lock-screen-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .lock-screen-image-wrapper {
+        display: none !important;
+    }
+
+    /* Card */
+    .lock-screen-card {
+        width: 100% !important;
+        max-width: 500px !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        padding: 30px 20px !important;
+    }
+
+    /* Profile image */
+    .lock-profile-wrapper {
+        width: 180px !important;
+        height: 180px !important;
+
+        margin-top: 30px !important;
+    }
+
+    /* Profile name */
+    .lock-screen-card h2 {
+        font-size: 24px !important;
+    }
+
+    /* Description */
+    .lock-screen-card p {
+        max-width: 100%;
+    }
+
+    /* Password */
+    .lock-password-field {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .lock-password-wrapper {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .lock-password-input {
+        width: 100% !important;
+    }
+
+    /* Unlock button */
+    .lock-unlock-btn {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Footer */
+    .lock-screen-footer {
+        margin-top: 40px !important;
+    }
+
+    /*Four Not*/
+
+    .four-not-container {
+        min-height: 100vh;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .four-not-content {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .four-not-image {
+        width: 100% !important;
+        max-width: 500px !important;
+        height: auto !important;
+        max-height: 220px !important;
+
+        margin-bottom: 20px !important;
+    }
+
+    .four-not-title {
+        width: 100%;
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+    }
+
+    .four-not-description {
+        width: 100%;
+        max-width: 450px;
+
+        margin-bottom: 22px !important;
+
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+    }
+
+    .four-not-button {
+        width: 162px !important;
+        height: 40px !important;
+    }
+
+    /*Forget Password*/
+    .forgot-password-page {
+        min-height: 100vh;
+    }
+
+    .forgot-password-container {
+        min-height: 100vh;
+        padding: 20px 12px !important;
+    }
+
+    .forgot-password-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .forgot-password-image-wrapper {
+        display: none !important;
+    }
+
+    /* Card */
+    .forgot-password-card {
+        width: 100% !important;
+        max-width: 500px !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        padding: 30px 20px !important;
+    }
+
+    /* Lock icon */
+    .forgot-password-lock {
+        width: 180px !important;
+        height: 180px !important;
+
+        margin-bottom: 22px !important;
+    }
+
+    .forgot-password-lock-image {
+        max-width: 70%;
+        max-height: 70%;
+        object-fit: contain;
+    }
+
+    /* Title */
+    .forgot-password-title {
+        font-size: 24px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* Email */
+    .forgot-password-field {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .forgot-password-input {
+        width: 100% !important;
+    }
+
+    /* Button */
+    .forgot-password-button {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    /* Footer */
+    .forgot-password-footer {
+        margin-top: 40px !important;
+    }
+
+
+    /*Forget Password Two*/
+ 
+
+    .reset-password-page {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .reset-password-container {
+    width: 100% !important;
+    min-height: 100vh;
+    padding: 20px 12px !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+  }
+
+  .reset-password-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* Hide illustration */
+  .reset-password-image-wrapper {
+    display: none !important;
+  }
+
+  /* ==========================================
+     CARD
+  ========================================== */
+
+  .reset-password-card {
+    width: 100% !important;
+    max-width: 500px !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+
+    padding: 30px 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden;
+  }
+
+  /* ==========================================
+     LOCK
+  ========================================== */
+
+  .reset-password-lock {
+    width: 120px !important;
+    height: 120px !important;
+
+    margin-bottom: 22px !important;
+
+    flex-shrink: 0;
+  }
+
+  .reset-password-lock-image {
+    max-width: 65% !important;
+    max-height: 65% !important;
+
+    object-fit: contain;
+  }
+
+  /* ==========================================
+     TITLE
+  ========================================== */
+
+  .reset-password-title {
+    width: 100% !important;
+
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+
+    margin-bottom: 24px !important;
+  }
+
+  /* ==========================================
+     FORM
+  ========================================== */
+
+  .reset-password-card form {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* ==========================================
+     FIELD
+  ========================================== */
+
+  .reset-password-field {
+    width: 100% !important;
+    max-width: 400px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* ==========================================
+     INPUT
+  ========================================== */
+
+  .reset-password-input {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* ==========================================
+     PASSWORD WRAPPER
+  ========================================== */
+
+  .reset-password-input-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .reset-password-input-wrapper .reset-password-input {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* ==========================================
+     RESET BUTTON
+  ========================================== */
+
+  .reset-password-button {
+    width: 100% !important;
+    max-width: 400px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* ==========================================
+     FOOTER
+  ========================================== */
+
+  .reset-password-footer {
+    width: 100% !important;
+
+    margin-top: 40px !important;
+  }
+}
+
+
+
+
+
+
+/*  TABLET */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .login-wrapper {
+        justify-content: center !important;
+    }
+
+    .login-card {
+        width: 600px !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .login-image-wrapper {
+        display: none !important;
+    }
+
+    .login-input,
+    .google-login,
+    .login-divider,
+    .login-options,
+    .login-button,
+    .password-wrapper {
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+
+    .pass-label {
+        margin-left: 4rem;
+    }
+
+    .email-label {
+        margin-left: 4rem;
+    }
+
+
+    /*register page*/
+    .register-container {
+        padding: 30px 24px !important;
+    }
+
+    .register-wrapper {
+        width: 100% !important;
+        max-width: 700px !important;
+        justify-content: center !important;
+        gap: 0 !important;
+        margin-right: 40px;
+    }
+
+    .register-image-wrapper {
+        display: none !important;
+    }
+
+    .register-card {
+        width: 500px !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .register-google-btn,
+    .register-divider,
+    .register-field,
+    .register-password-wrapper,
+    .register-terms,
+    .register-submit-btn {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    .register-input {
+        width: 100% !important;
+    }
+
+    /*Lock Screen Page*/
+    .lock-screen-container {
+        padding: 30px 24px !important;
+    }
+
+    .lock-screen-wrapper {
+        width: 100% !important;
+        max-width: 700px !important;
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .lock-screen-image-wrapper {
+        display: none !important;
+    }
+
+    /* Card */
+    .lock-screen-card {
+        width: 600px !important;
+        max-width: 100% !important;
+    }
+
+    /* Profile */
+    .lock-profile-wrapper {
+        width: 220px !important;
+        height: 220px !important;
+    }
+
+    /* Password */
+    .lock-password-field,
+    .lock-password-wrapper {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    .lock-password-input {
+        width: 100% !important;
+    }
+
+    /* Button */
+    .lock-unlock-btn {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    /*Forget Password*/
+
+    .forgot-password-container {
+        padding: 30px 24px !important;
+    }
+
+    .forgot-password-wrapper {
+        width: 100% !important;
+        max-width: 700px !important;
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .forgot-password-image-wrapper {
+        display: none !important;
+    }
+
+    /* Card */
+    .forgot-password-card {
+        width: 600px !important;
+        max-width: 100% !important;
+    }
+
+    /* Lock icon */
+    .forgot-password-lock {
+        width: 220px !important;
+        height: 220px !important;
+    }
+
+    /* Email */
+    .forgot-password-field {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    .forgot-password-input {
+        width: 100% !important;
+    }
+
+    /* Recover button */
+    .forgot-password-button {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    /*Forget Password Two*/
+    .reset-password-container {
+        padding: 30px 24px !important;
+    }
+
+    .reset-password-wrapper {
+        width: 100% !important;
+        max-width: 700px !important;
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+
+    /* Hide illustration */
+    .reset-password-image-wrapper {
+        display: none !important;
+    }
+
+    /* Card */
+    .reset-password-card {
+        width: 600px !important;
+        max-width: 100% !important;
+    }
+
+    /* Lock */
+    .reset-password-lock {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    /* Form fields */
+    .reset-password-field {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+    .reset-password-input-wrapper {
+        width: 100% !important;
+    }
+
+    .reset-password-input {
+        width: 100% !important;
+    }
+
+    /* Button */
+    .reset-password-button {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
+}

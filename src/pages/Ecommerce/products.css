@@ -1,0 +1,240 @@
+/* ==========================================
+   PRODUCTS MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .products-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 6px !important;
+    overflow-x: hidden !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .ecommerce-header {
+    width: 100% !important;
+    margin-bottom: 14px !important;
+  }
+
+  .ecommerce-header-top {
+    align-items: center !important;
+  }
+
+  .ecommerce-header-top h1 {
+    font-size: 18px !important;
+  }
+
+  .ecommerce-header-actions {
+    gap: 5px !important;
+  }
+
+  .ecommerce-header-actions button {
+    height: 30px !important;
+    min-height: 30px !important;
+  }
+
+  /* Export */
+
+  .ecommerce-header-actions > div:first-child button {
+    width: 30px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+  }
+
+  .ecommerce-header-actions > div:first-child button span {
+    display: none !important;
+  }
+
+  /* Add */
+
+  .ecommerce-header-actions > button {
+    width: 30px !important;
+    padding: 0 !important;
+  }
+
+
+  /* ==========================================
+     TABS
+  ========================================== */
+
+  .ecommerce-header-tabs {
+    margin-top: 12px !important;
+    gap: 8px !important;
+  }
+
+  .ecommerce-header-tab-list {
+    gap: 12px !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+
+  .ecommerce-header-tab-list::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .ecommerce-header-tab-list button {
+    font-size: 9px !important;
+    padding-bottom: 7px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .ecommerce-header-tab-list button span {
+    font-size: 7px !important;
+    margin-left: 2px !important;
+    padding: 1px 3px !important;
+  }
+
+
+  /* Information */
+
+  .ecommerce-information-btn {
+    font-size: 8px !important;
+    padding: 5px 8px !important;
+    align-self: flex-start !important;
+  }
+
+
+  /* View buttons */
+
+  .ecommerce-view-toggle {
+    padding: 1px !important;
+  }
+
+  .ecommerce-view-toggle button {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+
+  /* ==========================================
+     SEARCH + ACTIONS
+  ========================================== */
+
+  .products-toolbar {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 5px !important;
+
+    margin-bottom: 8px !important;
+  }
+
+  .products-toolbar input {
+    height: 28px !important;
+    min-width: 0 !important;
+
+    font-size: 8px !important;
+    padding-left: 10px !important;
+  }
+
+  .products-toolbar button {
+    height: 28px !important;
+    font-size: 8px !important;
+    padding: 0 8px !important;
+  }
+
+
+  /* ==========================================
+     TABLE
+  ========================================== */
+
+  .products-table-wrapper {
+    width: 100% !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none !important;
+  }
+
+  .products-table-wrapper::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .products-table-wrapper table {
+    min-width: 600px !important;
+    width: 600px !important;
+  }
+
+  .products-table-wrapper th {
+    font-size: 7px !important;
+    padding: 6px 5px !important;
+    white-space: nowrap !important;
+  }
+
+  .products-table-wrapper td {
+    font-size: 7px !important;
+    padding: 6px 5px !important;
+    white-space: nowrap !important;
+  }
+
+  .products-table-wrapper img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+
+  /* ==========================================
+     STATUS
+  ========================================== */
+
+  .products-table-wrapper [class*="status"] {
+    font-size: 6px !important;
+    padding: 2px 5px !important;
+  }
+
+
+  /* ==========================================
+     PAGINATION
+  ========================================== */
+
+  .products-pagination {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    margin-top: 8px !important;
+
+    font-size: 8px !important;
+  }
+
+  .products-pagination button {
+    width: 22px !important;
+    height: 22px !important;
+
+    font-size: 8px !important;
+  }
+
+
+
+
+
+  
+  main.p-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    padding: 8px 6px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+  }
+
+}
+

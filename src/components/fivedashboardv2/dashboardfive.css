@@ -1,0 +1,177 @@
+/* ==========================================
+   MOBILE DASHBOARD V2
+========================================== */
+
+@media (max-width: 767px) {
+    .dashboard-header-two {
+        order: 1 !important;
+        margin-top: -2560px;
+    }
+
+    .dashboard-five-v2 {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+    .dashboard-five-v2-main {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 20px !important;
+    }
+
+
+    /* ==========================================
+     HEADER
+  ========================================== */
+
+    .dashboard-five-v2-header {
+        order: 2 !important;
+        width: 100% !important;
+    }
+
+
+    /* ==========================================
+     TOP SECTION
+  ========================================== */
+
+    .dashboard-five-v2-top {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+
+        gap: 20px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+     SUMMARY
+  ========================================== */
+
+    .dashboard-five-v2-summary {
+        order: 3 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+     PROJECTS
+  ========================================== */
+
+    .dashboard-five-v2-projects {
+        order: 4 !important;
+
+        width: 350px !important;
+        margin-left: 10px !important;
+    }
+
+
+    /* ==========================================
+     STATISTICS
+  ========================================== */
+
+    .dashboard-five-v2-statistics {
+        order: 5 !important;
+
+        width: 350px !important;
+        margin-left: 10px !important;
+    }
+
+
+    /* ==========================================
+     MIDDLE SECTION
+  ========================================== */
+
+    .dashboard-five-v2-middle {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+
+        gap: 20px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+     ACTIVE TASKS
+  ========================================== */
+
+    .dashboard-five-v2-active {
+        order: 6 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+     TOTAL PROJECTS
+  ========================================== */
+
+    .dashboard-five-v2-total {
+        order: 7 !important;
+
+        width: 350px !important;
+
+        margin-left: 10px !important;
+    }
+
+
+    /* ==========================================
+     POSTING TASKS
+  ========================================== */
+
+    .dashboard-five-v2-posting {
+        order: 8 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+     RIGHT SIDEBAR
+  ========================================== */
+
+    .dashboard-five-v2-sidebar {
+        width: 354px !important;
+        margin-left: 10px !important;
+
+    }
+
+
+    .dashboard-five-v2-profile {
+        order: 9 !important;
+    }
+
+
+    .dashboard-five-v2-calendar {
+        order: 10 !important;
+    }
+
+
+    .dashboard-five-v2-activity {
+        order: 11 !important;
+    }
+
+
+
+}

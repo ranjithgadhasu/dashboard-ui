@@ -1,0 +1,47 @@
+/* Desktop + Tablet */
+
+.mobile-mail-back {
+  display: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+  .mail-header-two {
+    height: 56px !important;
+    padding: 0 12px !important;
+  }
+
+  /* Hide Reply on mobile */
+  .desktop-reply {
+    display: none;
+  }
+
+  /* Show Back */
+  .mobile-mail-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hide 1 of 200 navigation */
+  .mail-header-navigation {
+    display: none;
+  }
+
+  /* Keep actions */
+  .mail-header-actions {
+    gap: 2px;
+  }
+
+  .mail-header-actions button {
+    padding: 6px;
+  }
+
+  .mail-header-actions svg {
+    width: 20px;
+    height: 20px;
+  }
+}

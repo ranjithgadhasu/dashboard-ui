@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+
+  .customers-page {
+    width: 350px !important;
+    min-width: 350px !important;
+    max-width: 350px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border-radius: 0 !important;
+
+    box-sizing: border-box !important;
+
+    overflow: visible !important;
+  }
+
+  .customers-page > .mt-8,
+  .customers-page > .mt-5 {
+    width: 350px !important;
+    min-width: 350px !important;
+    max-width: 350px !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+}

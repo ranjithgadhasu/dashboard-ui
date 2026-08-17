@@ -1,0 +1,138 @@
+/* ==========================================
+   PRODUCTS TOOLBAR - MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .products-toolbar {
+    width: 100% !important;
+
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+
+    padding: 0 !important;
+  }
+
+
+  /* Main search container */
+
+  .products-searchbar {
+    width: 330px !important;
+    margin-right: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: stretch !important;
+
+    gap: 6px !important;
+
+    padding: 8px !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 12px !important;
+  }
+
+
+  /* Search wrapper */
+
+  .products-search-wrapper {
+    width: 100% !important;
+
+    flex: none !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /* Search input */
+
+  .products-search-input-wrapper {
+    width: 100% !important;
+
+    height: 32px !important;
+
+    padding: 0 8px !important;
+
+    border-radius: 8px !important;
+  }
+
+
+  .products-search-icon {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+
+  .products-search-input {
+    width: 100% !important;
+
+    height: 32px !important;
+
+    padding: 0 7px !important;
+
+    font-size: 9px !important;
+  }
+
+
+  .products-search-input::placeholder {
+    font-size: 9px !important;
+  }
+
+
+  /* Filter icon */
+
+  .products-filter-btn {
+    width: 22px !important;
+    height: 22px !important;
+
+    padding: 0 !important;
+  }
+
+  .products-filter-btn svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+
+  /* Suggestions */
+
+  .products-search-suggestions {
+    top: 38px !important;
+
+    border-radius: 10px !important;
+  }
+
+  .products-search-suggestion {
+    padding: 9px 12px !important;
+
+    font-size: 9px !important;
+  }
+
+
+  /* Actions */
+
+  .products-actions-btn {
+    width: 100% !important;
+
+    height: 32px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    padding: 0 10px !important;
+
+    border-radius: 8px !important;
+
+    font-size: 9px !important;
+  }
+
+
+  .products-actions-icon {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+}

@@ -1,0 +1,456 @@
+/* =====================================================
+   MOBILE PROFILE LAYOUT
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+  /* Main page becomes vertical */
+  .profile-layout {
+    display: flex !important;
+    flex-direction: column !important;
+
+    width: 100% !important;
+    min-height: 100vh !important;
+    height: auto !important;
+
+    overflow-x: hidden !important;
+  }
+
+  .profile-main {
+    display: contents !important;
+  }
+
+  /* =================================================
+     1. HEADER
+     ================================================= */
+
+  .profile-header {
+    order: 1 !important;
+
+    width: 100% !important;
+    height: 64px !important;
+
+    flex-shrink: 0 !important;
+    
+
+    padding-left: 1px !important;
+    padding-right: 12px !important;
+
+    box-sizing: border-box !important;
+  }
+  .profile-nav-item{
+    display: none;
+  }
+  .settings-text{
+    font-size: 10px;
+  }
+
+
+  /* =================================================
+     2. PROFILE SIDEBAR
+     ================================================= */
+
+  .profile-layout > aside {
+    order: 2 !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    flex-shrink: 0 !important;
+
+    border-right: none !important;
+    border-bottom: 1px solid #EEF2F6;
+
+    background: white;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* Sidebar inner container */
+
+  .profile-layout > aside > div {
+    width: 100% !important;
+
+    padding: 24px 20px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =================================================
+     3. PROFILE CONTENT
+     ================================================= */
+
+  .profile-content {
+    order: 3 !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    padding: 16px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+  }
+
+  /*Profile Card */
+
+   .profile-cards {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+
+    width: 100% !important;
+  }
+
+  .profile-card {
+    width: 100% !important;
+    min-width: 0 !important;
+
+    padding: 18px 16px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .profile-card-content {
+    width: 100% !important;
+    gap: 12px !important;
+  }
+
+  .profile-card-icon {
+    width: 40px !important;
+    height: 40px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  .profile-card-info {
+    min-width: 0 !important;
+  }
+
+  .profile-card-value {
+    gap: 8px !important;
+  }
+
+  /* Visit Charts*/
+
+    /* Main card */
+  .visits-chart-card {
+    order: 4 !important;
+    width: 365px !important;
+
+
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     STATISTICS
+  ========================================== */
+
+  .visits-statistics {
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: flex-start !important;
+
+    gap: 16px !important;
+
+    width: 100% !important;
+  }
+
+
+  .visits-stat-item {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+  }
+
+
+  /* Icon */
+  .visits-stat-item > div:first-child {
+    width: 40px !important;
+    height: 40px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Text */
+  .visits-stat-item > div:last-child {
+    min-width: 0 !important;
+  }
+
+
+  /* ==========================================
+     CHART
+  ========================================== */
+
+  .visits-chart-area {
+    width: 100% !important;
+
+    height: 250px !important;
+
+    margin-top: 20px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /*Folloer Chart*/
+
+  .followers-chart-card {
+    margin-top: 590px;
+    width: 365px !important;
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+    margin-left: -260px !important;
+    order: 5 !important;
+  }
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .followers-chart-header {
+    width: 100% !important;
+
+    margin-bottom: 16px !important;
+  }
+
+  .followers-chart-header h2 {
+    font-size: 18px !important;
+  }
+
+  /* ==========================================
+     PIE CHART
+  ========================================== */
+
+  .followers-pie-chart {
+    width: 240px !important;
+    height: 240px !important;
+
+    max-width: 100% !important;
+  }
+
+  /* ==========================================
+     CENTER TEXT
+  ========================================== */
+
+  .followers-chart-center h2 {
+    font-size: 24px !important;
+  }
+
+  .followers-chart-center p {
+    font-size: 13px !important;
+  }
+
+  /* ==========================================
+     FOOTER
+  ========================================== */
+
+  .followers-chart-footer {
+    width: 100% !important;
+
+    margin-top: 10px !important;
+
+    space-y: 0 !important;
+  }
+
+  /* First + Second rows */
+
+  .followers-chart-row {
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 14px !important;
+
+    width: 100% !important;
+  }
+
+  /* Footer item */
+
+  .followers-chart-item {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 10px !important;
+
+    min-width: 0 !important;
+  }
+
+  /* Make label/value stay readable */
+
+  .followers-chart-item span {
+    white-space: nowrap !important;
+  }
+
+
+  /*Followers Groth*/
+
+  .followers-growth-card {
+    width: 365px !important;
+
+
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    order: 4 !important;
+  }
+
+
+  /* ==========================================
+     CHART
+  ========================================== */
+
+  .followers-growth-chart-area {
+    width: 100% !important;
+
+    height: 260px !important;
+
+    margin-top: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /*New Follower*/
+    .new-followers-card {
+    width: 365px !important;
+   
+
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+   margin-top: 480px;
+   margin-left: -195px;
+    order: 6 !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .new-followers-header {
+    width: 100% !important;
+
+    margin-bottom: 24px !important;
+  }
+
+
+  .new-followers-header h2 {
+    font-size: 18px !important;
+  }
+
+
+  /* ==========================================
+     FOLLOWERS LIST
+  ========================================== */
+
+  .new-followers-list {
+    width: 100% !important;
+  }
+
+
+  /* ==========================================
+     FOLLOWER ITEM
+  ========================================== */
+
+  .new-follower-item {
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    gap: 12px !important;
+  }
+
+
+  /* ==========================================
+     LEFT
+  ========================================== */
+
+  .new-follower-left {
+    min-width: 0 !important;
+
+    gap: 12px !important;
+
+    flex: 1 !important;
+  }
+
+
+  /* Image */
+
+  .new-follower-image {
+    width: 44px !important;
+    height: 44px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Name / Role */
+
+  .new-follower-info {
+    min-width: 0 !important;
+  }
+
+  .new-follower-info h3,
+  .new-follower-info p {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* ==========================================
+     RIGHT ACTIONS
+  ========================================== */
+
+  .new-follower-actions {
+    gap: 6px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Follow button */
+
+  .new-follower-follow-button {
+    width: 80px !important;
+    height: 36px !important;
+
+    font-size: 13px !important;
+  }
+
+
+  /* More button */
+
+  .new-follower-more {
+    padding: 5px !important;
+  }
+
+
+}
+
+
+
+

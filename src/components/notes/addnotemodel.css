@@ -1,0 +1,184 @@
+/* =========================================
+   ADD NOTE MODAL - MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       OVERLAY
+       ===================================== */
+
+    .add-note-modal {
+        padding: 16px !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+
+        overflow-y: auto !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       MODAL BOX
+       ===================================== */
+
+    .add-note-modal-box {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        min-height: 0 !important;
+
+        max-height: calc(100vh - 32px) !important;
+
+        border-radius: 16px !important;
+
+        overflow-y: auto !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       CONTENT
+       ===================================== */
+
+    .add-note-content {
+
+        width: 100% !important;
+
+        padding: 24px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       HEADING
+       ===================================== */
+
+    .add-note-content h2 {
+
+        padding-right: 45px !important;
+
+        font-size: 23px !important;
+
+        line-height: 30px !important;
+    }
+
+
+    /* =====================================
+       CLOSE BUTTON
+       ===================================== */
+
+    .add-note-close {
+
+        right: 16px !important;
+
+        top: 16px !important;
+
+        width: 36px !important;
+
+        height: 36px !important;
+
+        border-radius: 10px !important;
+    }
+
+
+    /* =====================================
+       TITLE SECTION
+       ===================================== */
+
+    .add-note-title {
+
+        margin-top: 24px !important;
+
+        width: 100% !important;
+    }
+
+
+    .add-note-title-input {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        height: 42px !important;
+
+        box-sizing: border-box !important;
+
+        font-size: 14px !important;
+
+        padding-left: 16px !important;
+
+        padding-right: 16px !important;
+
+        border-radius: 14px !important;
+    }
+
+
+    /* =====================================
+       DESCRIPTION
+       ===================================== */
+
+    .add-note-description {
+
+        width: 100% !important;
+
+        margin-top: 18px !important;
+    }
+
+
+    .add-note-description-input {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        height: 150px !important;
+
+        box-sizing: border-box !important;
+
+        padding: 14px !important;
+
+        font-size: 14px !important;
+
+        border-radius: 14px !important;
+    }
+
+
+    /* =====================================
+       CREATE BUTTON
+       ===================================== */
+
+    .add-note-button-wrapper {
+
+        width: 100% !important;
+
+        margin-top: 18px !important;
+
+        display: flex !important;
+
+        justify-content: flex-end !important;
+    }
+
+
+    .add-note-create {
+
+        width: 120px !important;
+
+        min-width: 120px !important;
+
+        height: 42px !important;
+
+        padding: 0 20px !important;
+
+        border-radius: 10px !important;
+    }
+
+}

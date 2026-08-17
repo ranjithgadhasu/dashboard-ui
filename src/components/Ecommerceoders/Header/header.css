@@ -1,0 +1,137 @@
+@media screen and (max-width: 767px) {
+
+  .ecommerce-header {
+    width: 330px !important;
+
+
+    margin-bottom: 14px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .ecommerce-header-top {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    gap: 8px !important;
+  }
+
+  .ecommerce-header-title {
+    font-size: 18px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Hide Modals button if you don't want it on mobile */
+  /*.ecommerce-modal-button{
+    display: block !important;
+  }
+
+  .ecommerce-modal-button-wrapper {
+    display: none !important;
+  }*/
+
+  /* Modals button */
+
+.ecommerce-modal-button-wrapper {
+  display: block !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ecommerce-modal-button {
+  display: flex !important;
+
+  width: 50px !important;
+  height: 30px !important;
+
+  margin-left: 120px !important;
+
+  padding: 0 !important;
+
+  font-size: 9px !important;
+
+  border-radius: 7px !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+  /* Actions */
+
+  .ecommerce-header-actions {
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 5px !important;
+
+    margin-left: auto !important;
+  }
+
+
+  /* Export */
+
+  .ecommerce-export-button {
+    width: 30px !important;
+    height: 30px !important;
+
+    padding: 0 !important;
+
+    justify-content: center !important;
+
+    border-radius: 8px !important;
+  }
+
+  .ecommerce-export-button span {
+    display: none !important;
+  }
+
+  .ecommerce-export-button svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+
+  /* Export dropdown */
+
+  .ecommerce-export-menu {
+    width: 140px !important;
+
+    top: 38px !important;
+
+    border-radius: 10px !important;
+  }
+
+  .ecommerce-export-menu button {
+    padding: 8px 10px !important;
+
+    font-size: 10px !important;
+  }
+
+  .ecommerce-export-menu svg {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+
+  /* Add */
+
+  .ecommerce-add-button {
+    width: 30px !important;
+    height: 30px !important;
+
+    border-radius: 8px !important;
+  }
+
+  .ecommerce-add-button svg {
+    width: 17px !important;
+    height: 17px !important;
+  }
+
+}

@@ -1,0 +1,48 @@
+/* Desktop + Tablet */
+.mail-mobile-header {
+  display: none;
+}
+
+.mail-mobile-close {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .mail-mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 12px;
+    border-bottom: 1px solid #e9edf5;
+  }
+
+  .mail-mobile-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+
+    background: #f5f7fa;
+    color: #525c60;
+
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .mail-mobile-close:hover {
+    background: #eef2f7;
+  }
+
+  .mail-sidebar {
+    width: 100% !important;
+    height: 100%;
+  }
+}

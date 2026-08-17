@@ -1,0 +1,24 @@
+/* ==========================================
+   PROFILE CARD TWO
+========================================== */
+
+.profile-card-two {
+  width: 100%;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .profile-card-two {
+    width: 350px !important;
+    margin-left: 10px !important;
+    overflow: hidden !important;
+
+  }
+
+
+}

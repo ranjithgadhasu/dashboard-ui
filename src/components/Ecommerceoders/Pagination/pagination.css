@@ -1,0 +1,154 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     PAGINATION
+  ========================================== */
+
+  .products-pagination {
+    width: 368px !important;
+    margin-left: -25px;
+    padding: 8px !important;
+
+    gap: 8px !important;
+
+    border-radius: 0 0 10px 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     LEFT
+  ========================================== */
+
+  .products-pagination-left {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    justify-content: space-between !important;
+
+    gap: 6px !important;
+  }
+
+
+  /* ==========================================
+     SELECT
+  ========================================== */
+
+  .products-pagination-select {
+    width: 42px !important;
+    min-width: 42px !important;
+
+    height: 28px !important;
+
+    padding: 0 5px !important;
+
+    border-radius: 7px !important;
+
+    font-size: 9px !important;
+  }
+
+
+  /* ==========================================
+     SHOWING TEXT
+  ========================================== */
+
+  .products-pagination-text {
+    font-size: 8px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     CONTROLS
+  ========================================== */
+
+  .products-pagination-controls {
+    width: 100% !important;
+
+    display: flex !important;
+
+    justify-content: flex-end !important;
+
+    gap: 3px !important;
+
+    overflow-x: auto !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .products-pagination-controls::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     BUTTONS
+  ========================================== */
+
+  .pagination-button,
+  .pagination-next {
+    width: 25px !important;
+    min-width: 25px !important;
+
+    height: 25px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+
+    border-radius: 6px !important;
+
+    font-size: 8px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  .pagination-button svg,
+  .pagination-next svg {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+
+  /* ==========================================
+     ACTIVE
+  ========================================== */
+
+  .pagination-active {
+    background: #22A447 !important;
+    color: white !important;
+  }
+
+
+  /* ==========================================
+     NEXT
+  ========================================== */
+
+  .pagination-next {
+    background: #EDF8F0 !important;
+    color: #22A447 !important;
+  }
+
+
+  /* ==========================================
+     DOTS
+  ========================================== */
+
+  .pagination-dots {
+    padding: 0 2px !important;
+
+    font-size: 8px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+}

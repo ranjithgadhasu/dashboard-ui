@@ -1,0 +1,311 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.project-tabs {
+    width: 100%;
+}
+
+.project-tabs-left {
+    min-width: 0;
+}
+
+.project-tab {
+    white-space: nowrap;
+}
+
+.project-actions {
+    flex-shrink: 0;
+}
+
+.project-view-icons {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .project-tabs {
+        display: grid;
+
+        grid-template-columns: 1fr auto;
+
+        grid-template-areas:
+            "tabs tabs"
+            "actions views";
+
+        width: 100%;
+
+        margin-bottom: 18px !important;
+
+        border-bottom: 1px solid #EEF2F7;
+
+        overflow: hidden;
+    }
+
+
+    /* ===============================
+     TOP STATUS TABS
+  =============================== */
+
+    .project-tabs-left {
+        grid-area: tabs;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 20px;
+
+        width: 100%;
+
+        min-width: 0;
+
+        overflow-x: auto;
+
+        overflow-y: hidden;
+
+        padding: 0;
+
+        scrollbar-width: none;
+    }
+
+    .project-tabs-left::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .project-tab {
+        position: relative;
+
+        flex-shrink: 0;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 4px;
+
+        padding-bottom: 10px;
+
+        font-size: 11px !important;
+
+        line-height: 16px;
+
+        white-space: nowrap;
+    }
+
+
+    .project-tab-label {
+        font-size: 11px;
+    }
+
+
+    .project-tab-count {
+        min-width: 18px !important;
+
+        height: 17px !important;
+
+        padding: 0 4px !important;
+
+        border-radius: 5px !important;
+
+        font-size: 9px !important;
+    }
+
+
+    .project-tab-active {
+        height: 2px !important;
+
+        bottom: 0;
+    }
+
+
+    /* =================================
+     CHART + GRIDPAGE
+  ================================= */
+
+    .project-actions {
+        grid-area: actions;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 12px;
+
+        min-width: 0;
+
+        padding: 9px 0 9px 4px;
+
+        white-space: nowrap;
+    }
+
+
+    .project-action-chart,
+    .project-action-gridpage {
+        flex-shrink: 0;
+
+        padding: 0;
+
+        border: 0;
+
+        background: transparent;
+
+        font-size: 12px !important;
+
+        line-height: 20px;
+
+        font-weight: 500;
+
+        color: #344054;
+
+        white-space: nowrap;
+
+        cursor: pointer;
+    }
+
+
+    .project-action-chart:hover,
+    .project-action-gridpage:hover {
+        color: #22C55E;
+    }
+
+
+    /* =================================
+     LIST + GRID BUTTONS
+  ================================= */
+
+    .project-view-icons {
+        display: none;
+    }
+
+
+    .project-actions>.project-list-button,
+    .project-actions>.project-grid-button {
+        flex-shrink: 0;
+    }
+
+
+    .project-list-button,
+    .project-grid-button {
+        width: 30px !important;
+
+        height: 30px !important;
+
+        border-radius: 7px !important;
+
+        padding: 0 !important;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+    }
+
+
+    .project-list-button svg,
+    .project-grid-button svg {
+        width: 15px;
+
+        height: 15px;
+    }
+
+
+    .project-list-button {
+        border: 1px solid #EEF2F7;
+
+        background: #FFFFFF;
+
+        color: #98A2B3;
+    }
+
+
+    .project-grid-button {
+        border: 0;
+
+        background: transparent;
+
+        color: #22C55E;
+    }
+
+
+    /* =================================
+     REMOVE OLD EXTRA VIEW ICONS
+  ================================= */
+
+    .project-view-icons {
+        display: none !important;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+    .project-tabs-left {
+        gap: 16px;
+    }
+
+
+    .project-tab {
+        font-size: 10px !important;
+
+        padding-bottom: 9px;
+    }
+
+
+    .project-tab-label {
+        font-size: 10px;
+    }
+
+
+    .project-tab-count {
+        min-width: 17px !important;
+
+        height: 16px !important;
+
+        font-size: 8px !important;
+    }
+
+
+    .project-actions {
+        gap: 8px;
+
+        padding-top: 8px;
+
+        padding-bottom: 8px;
+    }
+
+
+    .project-action-chart,
+    .project-action-gridpage {
+        font-size: 11px !important;
+    }
+
+
+    .project-list-button,
+    .project-grid-button {
+        width: 28px !important;
+
+        height: 28px !important;
+    }
+
+
+    .project-list-button svg,
+    .project-grid-button svg {
+        width: 14px;
+
+        height: 14px;
+    }
+
+}

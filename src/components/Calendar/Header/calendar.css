@@ -1,0 +1,250 @@
+@media screen and (max-width: 767px) {
+
+    /* ==========================================
+     CALENDAR HEADER
+  ========================================== */
+
+    .calendar-header {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* ==========================================
+     PAGE HEADER
+  ========================================== */
+
+    .calendar-page-header {
+        width: 100% !important;
+        margin-top: 80px !important;
+        margin-bottom: 12px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        gap: 8px !important;
+    }
+
+
+    /* ==========================================
+     TITLE
+  ========================================== */
+
+    .calendar-title {
+        font-size: 18px !important;
+        margin-left: 5px !important;
+        line-height: 1.2 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* ==========================================
+     ADD EVENT BUTTON
+  ========================================== */
+
+    .calendar-page-header button {
+        width: 100px !important;
+        height: 30px !important;
+        margin-right: 10px !important;
+        min-width: 30px !important;
+
+        padding: 0 !important;
+
+        border-radius: 8px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .calendar-page-header button svg {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+
+    /* ==========================================
+     CALENDAR TOOLBAR
+  ========================================== */
+
+    .calendar-toolbar {
+        width: 100% !important;
+
+        min-width: 0 !important;
+
+        padding: 8px !important;
+
+        border-radius: 12px !important;
+
+        gap: 6px !important;
+
+        display: flex !important;
+        align-items: center !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* ==========================================
+     NAVIGATION
+  ========================================== */
+
+    .calendar-navigation {
+        flex-shrink: 0 !important;
+    }
+
+
+    /* ==========================================
+     MONTH
+  ========================================== */
+
+    .calendar-month {
+        min-width: 0 !important;
+
+        font-size: 12px !important;
+
+        line-height: 1.2 !important;
+
+        text-align: center !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+
+        flex: 1 !important;
+    }
+
+
+    /* ==========================================
+     YEAR
+  ========================================== */
+
+    .calendar-year {
+        margin-left: 3px !important;
+
+        font-size: 10px !important;
+    }
+
+
+    /* ==========================================
+     VIEW SWITCHER
+  ========================================== */
+
+    .calendar-view-switcher {
+        flex-shrink: 0 !important;
+
+        min-width: 0 !important;
+    }
+
+
+
+
+
+
+    /* ==========================================
+     CALENDAR NAVIGATION
+  ========================================== */
+
+    .calendar-navigation {
+        display: flex !important;
+        align-items: center !important;
+
+        gap: 5px !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* ==========================================
+     PREVIOUS / NEXT WRAPPER
+  ========================================== */
+
+    .calendar-nav-buttons {
+        border-radius: 8px !important;
+    }
+
+
+    /* ==========================================
+     PREVIOUS / NEXT BUTTONS
+  ========================================== */
+
+    .calendar-nav-button {
+        width: 26px !important;
+        height: 26px !important;
+
+        min-width: 26px !important;
+
+        padding: 0 !important;
+    }
+
+    .calendar-nav-button svg {
+        width: 13px !important;
+        height: 13px !important;
+    }
+
+
+    /* ==========================================
+     TODAY
+  ========================================== */
+
+    .calendar-today-button {
+        height: 26px !important;
+
+        min-width: 42px !important;
+
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+
+        border-radius: 8px !important;
+
+        font-size: 9px !important;
+
+        white-space: nowrap !important;
+    }
+
+
+
+
+
+
+  /* ==========================================
+     VIEW SWITCHER
+  ========================================== */
+
+  .calendar-view-switcher-box {
+    padding: 2px !important;
+
+    border-radius: 7px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* ==========================================
+     VIEW BUTTON
+  ========================================== */
+
+  .calendar-view-button {
+    min-width: 38px !important;
+    width: 38px !important;
+
+    height: 24px !important;
+
+    padding: 0 !important;
+
+    border-radius: 5px !important;
+
+    font-size: 8px !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+  }
+
+}

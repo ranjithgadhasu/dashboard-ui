@@ -1,0 +1,38 @@
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .people-section-mail {
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .people-section-mail-header {
+    min-height: 52px;
+    padding: 12px 16px;
+  }
+
+  .people-section-mail-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .people-section-mail-add {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+  }
+
+  .people-section-mail-list {
+    width: 100%;
+  }
+
+  .people-section-mail-empty {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+}

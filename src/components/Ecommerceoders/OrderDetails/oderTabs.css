@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     ORDER DETAILS TABS
+  ========================================== */
+
+  .order-details-tabs-wrapper {
+    width: 100% !important;
+
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .order-details-tabs-wrapper::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     TAB LIST
+  ========================================== */
+
+  .order-details-tabs-list {
+    width: max-content !important;
+    min-width: 100% !important;
+
+    height: 40px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 18px !important;
+  }
+
+
+  /* ==========================================
+     INDIVIDUAL TAB
+  ========================================== */
+
+  .order-details-tab {
+    height: 40px !important;
+
+    flex: 0 0 auto !important;
+
+    padding: 0 !important;
+
+    font-size: 8px !important;
+
+    font-weight: 500 !important;
+
+    letter-spacing: 0.3px !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     ACTIVE LINE
+  ========================================== */
+
+  .order-details-tab > span {
+    height: 2px !important;
+  }
+
+}

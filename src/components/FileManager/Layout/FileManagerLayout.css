@@ -1,0 +1,233 @@
+/* =========================================
+   FOLDER SIDEBAR
+   ========================================= */
+
+.folder-sidebar-overlay {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =======================================
+       MAIN FILE MANAGER
+       ======================================= */
+
+    .file-manager-body {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+
+    /* =======================================
+       1. CONTENT AREA - FIRST
+       ======================================= */
+
+    .mobile-content-area {
+        position: relative;
+
+        order: 1 !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        flex: none !important;
+
+        background: #ffffff;
+
+        border-bottom: 1px solid #EEF2F7;
+
+        overflow: visible !important;
+    }
+
+
+    /* =======================================
+       2. FOLDER SIDEBAR - SECOND
+       ======================================= */
+
+    .mobile-folder-sidebar {
+        position: relative;
+
+        order: 2 !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        flex: none !important;
+
+        background: #ffffff;
+
+        border-bottom: 1px solid #EEF2F7;
+
+        overflow: visible !important;
+
+        transform: none !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* =======================================
+       3. FOLDER PREVIEW - THIRD
+       ======================================= */
+
+    .mobile-folder-preview {
+        position: relative;
+
+        order: 3 !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        flex: none !important;
+
+        background: #ffffff;
+
+        border-top: 1px solid #EEF2F7;
+
+        overflow: visible !important;
+    }
+
+
+    /* =======================================
+       OVERLAY
+       ======================================= */
+
+    .folder-sidebar-overlay {
+        display: none !important;
+    }
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mobile-folder-sidebar {
+        width: 250px;
+    }
+
+}
+
+
+/* =========================================
+   DESKTOP
+   ========================================= */
+
+@media (min-width: 992px) {
+
+    /* =====================================
+       MAIN FILE MANAGER
+       ===================================== */
+
+    .file-manager-body {
+        display: flex !important;
+        flex-direction: row !important;
+
+        width: 100%;
+
+        min-width: 0;
+        min-height: 0;
+
+        height: 100%;
+
+        overflow: hidden !important;
+    }
+
+
+    /* =====================================
+       FOLDER SIDEBAR
+       ===================================== */
+
+    .mobile-folder-sidebar {
+        position: relative;
+
+        flex: 0 0 260px;
+
+        width: 260px;
+        min-width: 260px;
+
+        height: 100%;
+
+        overflow: hidden;
+
+        transform: none;
+
+        box-shadow: none;
+    }
+
+
+    /* =====================================
+       CONTENT AREA
+       ONLY THIS SECTION SCROLLS
+       ===================================== */
+
+    .mobile-content-area {
+        position: relative;
+
+        flex: 1 1 auto;
+
+        width: auto;
+        min-width: 0;
+        min-height: 0;
+
+        height: 100%;
+
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+
+        background: #ffffff;
+    }
+
+
+    /* =====================================
+       FOLDER PREVIEW
+       ===================================== */
+
+    .mobile-folder-preview {
+        position: relative;
+
+        flex: 0 0 290px;
+
+        width: 290px;
+        min-width: 290px;
+
+        height: 100%;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        transform: none;
+
+        box-shadow: none;
+    }
+
+
+    /* Overlay */
+
+    .folder-sidebar-overlay {
+        display: none !important;
+    }
+}

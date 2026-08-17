@@ -1,0 +1,163 @@
+/* =========================================
+   LEFT SIDEBAR - MOBILE ONLY
+   Desktop remains unchanged
+   ========================================= */
+
+.left-sidebar-overlay {
+  display: none;
+}
+
+.left-sidebar-close {
+  display: none;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+  /* -----------------------------------------
+     Sidebar
+     ----------------------------------------- */
+
+  .left-sidebar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+
+    width: 84px !important;
+    height: 100vh;
+
+    z-index: 9999;
+
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+
+    flex-shrink: 0;
+
+    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.12);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+
+  /* -----------------------------------------
+     Sidebar OPEN
+     ----------------------------------------- */
+
+  .left-sidebar-mobile-open {
+    transform: translateX(0);
+  }
+
+
+  /* -----------------------------------------
+     Overlay
+     ----------------------------------------- */
+
+  .left-sidebar-overlay {
+    display: block;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.35);
+
+    z-index: 9998;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+      opacity 0.3s ease-in-out,
+      visibility 0.3s ease-in-out;
+  }
+
+
+  .left-sidebar-overlay-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /* -----------------------------------------
+     X Close Button
+     ----------------------------------------- */
+
+  .left-sidebar-close {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    top: 12px;
+    right: -44px;
+
+    width: 34px;
+    height: 34px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #475569;
+
+    cursor: pointer;
+
+    z-index: 10000;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    padding: 0;
+  }
+
+
+  .left-sidebar-close:hover {
+    background: #f8fafc;
+  }
+
+
+  /* -----------------------------------------
+     Sidebar Icons
+     ----------------------------------------- */
+
+  .left-sidebar-icons {
+    margin-top: 16px;
+  }
+
+
+  /* -----------------------------------------
+     Prevent body horizontal overflow
+     ----------------------------------------- */
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+/* =========================================
+   TABLET + DESKTOP
+   No mobile drawer behavior
+   ========================================= */
+
+@media (min-width: 768px) {
+
+  .left-sidebar {
+    position: relative;
+    transform: none;
+  }
+
+  .left-sidebar-overlay {
+    display: none !important;
+  }
+
+  .left-sidebar-close {
+    display: none !important;
+  }
+}

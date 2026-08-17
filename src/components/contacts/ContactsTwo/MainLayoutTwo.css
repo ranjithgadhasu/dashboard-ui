@@ -1,0 +1,365 @@
+/* =========================================
+   MAIN LAYOUT
+   ========================================= */
+
+.main-layout-two {
+    width: 100%;
+    min-height: 100vh;
+    background: #f6f8fb;
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   SIDEBAR - DESKTOP
+   ========================================= */
+
+.main-layout-two-sidebar {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: 80px;
+    height: 100vh;
+
+    z-index: 1001;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   HEADER - DESKTOP
+   ========================================= */
+
+.main-layout-two-header {
+    position: fixed;
+
+    top: 0;
+    left: 80px;
+    right: 0;
+
+    width: auto;
+    height: 70px;
+
+    z-index: 1000;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   MAIN CONTENT - DESKTOP
+   ========================================= */
+
+.main-layout-two-content {
+    margin-left: 80px;
+
+    padding-top: 70px;
+
+    min-height: 100vh;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   INNER
+   ========================================= */
+
+.main-layout-two-inner {
+    width: 100%;
+
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    padding: 32px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   TOP BAR
+   ========================================= */
+
+.main-layout-two-topbar {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 32px;
+}
+
+
+/* =========================================
+   CARDS
+   ========================================= */
+
+.main-layout-two-cards {
+    width: 100%;
+    min-width: 0;
+}
+
+
+/* =========================================
+   OVERLAY
+   ========================================= */
+
+.main-layout-two-overlay {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       MAIN LAYOUT
+       ===================================== */
+
+    .main-layout-two {
+        position: relative;
+
+        width: 100% !important;
+        min-height: 100vh !important;
+
+        overflow-x: hidden !important;
+    }
+
+
+    /* =====================================
+       SIDEBAR
+       ===================================== */
+
+    .main-layout-two-sidebar {
+
+        position: fixed !important;
+
+        top: 0 !important;
+
+        left: -80px !important;
+
+        width: 80px !important;
+
+        min-width: 80px !important;
+
+        height: 100vh !important;
+
+        z-index: 1100 !important;
+
+        background: #ffffff !important;
+
+        transition: left 0.3s ease !important;
+
+        box-shadow: 4px 0 18px rgba(0, 0, 0, 0.15) !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* =====================================
+       SIDEBAR OPEN
+       ===================================== */
+
+    .main-layout-two-sidebar.is-open {
+
+        left: 0 !important;
+    }
+
+
+    /* =====================================
+       ACTUAL SIDEBAR INSIDE WRAPPER
+       ===================================== */
+
+    .main-layout-two-sidebar>* {
+
+        width: 80px !important;
+
+        min-width: 80px !important;
+
+        height: 100vh !important;
+
+        margin: 0 !important;
+
+        position: relative !important;
+
+        left: 0 !important;
+
+        top: 0 !important;
+
+        transform: none !important;
+    }
+
+
+    /* =====================================
+       OVERLAY
+       ===================================== */
+
+    .main-layout-two-overlay {
+
+        display: block !important;
+
+        position: fixed !important;
+
+        top: 0 !important;
+
+        left: 0 !important;
+
+        width: 100vw !important;
+
+        height: 100vh !important;
+
+        z-index: 1090 !important;
+
+        background: rgba(0, 0, 0, 0.35) !important;
+    }
+
+
+    /* =====================================
+       HEADER
+       ===================================== */
+
+    .main-layout-two-header {
+
+        position: fixed !important;
+
+        top: 0 !important;
+
+        left: 0 !important;
+
+        right: 0 !important;
+
+        width: 100% !important;
+
+        height: 64px !important;
+
+        z-index: 1000 !important;
+
+        background: #ffffff !important;
+
+        border-bottom: 1px solid #eef2f7 !important;
+    }
+
+
+    /* =====================================
+       MAIN CONTENT
+       ===================================== */
+
+    .main-layout-two-content {
+
+        width: 100% !important;
+
+        margin-left: 0 !important;
+
+        padding-top: 64px !important;
+
+        min-height: 100vh !important;
+
+        box-sizing: border-box !important;
+
+        overflow-x: hidden !important;
+    }
+
+
+    /* =====================================
+       INNER CONTENT
+       ===================================== */
+
+    .main-layout-two-inner {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 20px 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================
+       SEARCH + ADD CONTACT
+       ===================================== */
+
+    .main-layout-two-topbar {
+
+        width: 100% !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: stretch !important;
+
+        justify-content: flex-start !important;
+
+        gap: 12px !important;
+
+        margin-bottom: 24px !important;
+    }
+
+
+    /* Search */
+
+    .main-layout-two-topbar>div {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+    }
+
+
+    /* Add Contact */
+
+    .main-layout-two-topbar button {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-height: 42px !important;
+    }
+
+
+    /* =====================================
+       CONTACT CARDS
+       ===================================== */
+
+    .main-layout-two-cards {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    .main-layout-two-cards>* {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+}

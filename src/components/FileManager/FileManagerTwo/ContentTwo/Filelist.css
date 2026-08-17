@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+
+    /* =====================================
+       MOBILE TABLE CONTAINER
+       ===================================== */
+
+    .file-list-mobile-scroll {
+        width: 100% !important;
+
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+    /* =====================================
+       HEADER
+       ===================================== */
+
+    .file-list-header-mobile {
+
+        display: grid !important;
+
+        grid-template-columns:
+            40px
+            180px
+            120px
+            80px
+            100px
+            40px !important;
+
+        width: 600px !important;
+
+        height: 55px !important;
+
+        padding: 0 12px !important;
+
+        align-items: center !important;
+
+        column-gap: 8px !important;
+
+        box-sizing: border-box !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* Checkbox */
+
+    .file-list-header-mobile > :first-child {
+        grid-column: 1 !important;
+    }
+
+
+    /* Name */
+
+    .file-list-header-mobile .text-name {
+        grid-column: 2 !important;
+
+        display: block !important;
+
+        white-space: nowrap !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Date */
+
+    .file-list-header-mobile .text-date {
+        grid-column: 3 !important;
+
+        display: block !important;
+
+        white-space: nowrap !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Size */
+
+    .file-list-header-mobile .text-size {
+        grid-column: 4 !important;
+
+        display: block !important;
+
+        white-space: nowrap !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Owner */
+
+    .file-list-header-mobile .text-owner {
+        grid-column: 5 !important;
+
+        display: block !important;
+
+        white-space: nowrap !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* Empty menu column */
+
+    .file-list-header-mobile > span:last-child {
+        grid-column: 6 !important;
+    }
+
+
+    /* =====================================
+       ROWS
+       ===================================== */
+
+    .file-list-rows-mobile {
+        width: 600px !important;
+
+        min-width: 600px !important;
+    }
+}

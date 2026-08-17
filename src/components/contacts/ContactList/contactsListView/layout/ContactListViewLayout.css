@@ -1,0 +1,286 @@
+/* =========================================
+   MAIN LAYOUT
+   ========================================= */
+
+.contact-list-view-layout {
+    position: relative;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    background: #f8f9fc;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   SIDEBAR - DESKTOP
+   ========================================= */
+
+.contact-list-view-sidebar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 80px;
+    height: 100vh;
+
+    z-index: 1001;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   MAIN - DESKTOP
+   ========================================= */
+
+.contact-list-view-main {
+    margin-left: 80px;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 0;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.contact-list-view-header {
+    position: sticky;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 64px;
+
+    flex-shrink: 0;
+
+    z-index: 1000;
+
+    background: #ffffff;
+}
+
+
+/* =========================================
+   CONTENT
+   ========================================= */
+
+.contact-list-view-content {
+    flex: 1;
+
+    min-width: 0;
+
+    min-height: calc(100vh - 64px);
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   OVERLAY
+   ========================================= */
+
+.contact-list-view-overlay {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    /* =====================================
+       LAYOUT
+       ===================================== */
+
+    .contact-list-view-layout {
+        width: 100% !important;
+
+        min-height: 100vh !important;
+
+        overflow-x: hidden !important;
+    }
+
+
+    /* =====================================
+       SIDEBAR
+       ===================================== */
+
+    .contact-list-view-sidebar {
+
+        position: fixed !important;
+
+        top: 0 !important;
+
+        left: -80px !important;
+
+        width: 80px !important;
+
+        min-width: 80px !important;
+
+        height: 100vh !important;
+
+        z-index: 1100 !important;
+
+        background: #ffffff !important;
+
+        box-shadow: 4px 0 18px rgba(0, 0, 0, 0.15) !important;
+
+        transition: left 0.3s ease !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* Sidebar open */
+
+    .contact-list-view-sidebar.is-open {
+        left: 0 !important;
+    }
+
+
+    /* =====================================
+       SIDEBAR CONTENT
+       ===================================== */
+
+    .contact-list-view-sidebar > * {
+
+        width: 80px !important;
+
+        min-width: 80px !important;
+
+        height: 100vh !important;
+
+        margin: 0 !important;
+
+        position: relative !important;
+
+        left: 0 !important;
+
+        top: 0 !important;
+
+        transform: none !important;
+    }
+
+
+    /* =====================================
+       OVERLAY
+       ===================================== */
+
+    .contact-list-view-overlay {
+
+        display: block !important;
+
+        position: fixed !important;
+
+        inset: 0 !important;
+
+        width: 100vw !important;
+
+        height: 100vh !important;
+
+        z-index: 1090 !important;
+
+        background: rgba(0, 0, 0, 0.35) !important;
+    }
+
+
+    /* =====================================
+       MAIN
+       ===================================== */
+
+    .contact-list-view-main {
+
+        width: 100% !important;
+
+        margin-left: 0 !important;
+
+        min-width: 0 !important;
+
+        min-height: 100vh !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+    }
+
+
+    /* =====================================
+       HEADER
+       ===================================== */
+
+    .contact-list-view-header {
+
+        position: fixed !important;
+
+        top: 0 !important;
+
+        left: 0 !important;
+
+        right: 0 !important;
+
+        width: 100% !important;
+
+        height: 64px !important;
+
+        z-index: 1000 !important;
+
+        background: #ffffff !important;
+
+        border-bottom: 1px solid #eef2f7 !important;
+    }
+
+
+    /* =====================================
+       CONTENT
+       ===================================== */
+
+    .contact-list-view-content {
+
+        width: 100% !important;
+
+        min-width: 0 !important;
+
+        min-height: 100vh !important;
+
+        padding-top: 64px !important;
+
+        box-sizing: border-box !important;
+
+        overflow-x: hidden !important;
+
+        overflow-y: auto !important;
+    }
+
+
+    /* =====================================
+       PAGE CONTENT
+       ===================================== */
+
+    .contact-list-view-content > * {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+}

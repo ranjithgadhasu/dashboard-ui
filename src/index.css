@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/*import "react-datepicker/dist/react-datepicker.css";*/
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.react-datepicker {
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(0,0,0,.12);
+  font-family: inherit;
+}
+
+.react-datepicker__header {
+  background: #fff;
+  border-bottom: none;
+}
+
+.react-datepicker__current-month {
+  color: #3F434A;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.react-datepicker__day--selected {
+  background: #22963F;
+  border-radius: 10px;
+}
+
+.react-datepicker__navigation {
+  top: 18px;
+}
+
+.week-time-label {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: #8A9099;
+}
+
+.week-calendar .week-time-label {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     CUSTOMER STATUS
+  ========================================== */
+
+  .customer-status-badge {
+    height: 18px !important;
+
+    min-width: 48px !important;
+
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+
+    gap: 3px !important;
+
+    border-radius: 999px !important;
+
+    font-size: 6px !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ==========================================
+     STATUS DOT
+  ========================================== */
+
+  .customer-status-dot {
+    width: 5px !important;
+    height: 5px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* ==========================================
+     STATUS TEXT
+  ========================================== */
+
+  .customer-status-text {
+    font-size: 6px !important;
+
+    white-space: nowrap !important;
+  }
+
+}

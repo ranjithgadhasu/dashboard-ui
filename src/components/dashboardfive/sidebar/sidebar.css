@@ -1,0 +1,80 @@
+/* ==========================================
+   PROFILE CARD - MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .profile-card-mobile {
+    width: 350px !important;
+    box-sizing: border-box !important;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 16px !important;
+
+    overflow: hidden !important;
+  }
+
+  /* Left section */
+
+  .profile-card-left {
+    gap: 12px !important;
+    min-width: 0 !important;
+  }
+
+  /* Profile image */
+
+  .profile-card-image {
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+  /* Notification */
+
+  .profile-card-notification {
+    width: 22px !important;
+    height: 22px !important;
+
+    right: -3px !important;
+    top: -3px !important;
+
+    font-size: 10px !important;
+  }
+
+  /* User information */
+
+  .profile-card-info {
+    min-width: 0 !important;
+  }
+
+  .profile-card-info h2 {
+    font-size: 14px !important;
+    white-space: nowrap !important;
+  }
+
+  .profile-card-info p {
+    font-size: 13px !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+
+    max-width: 180px !important;
+  }
+
+  /* Settings */
+
+  .profile-card-settings {
+    flex-shrink: 0 !important;
+    margin-left: 10px !important;
+  }
+
+  .calendar-cardds{
+    width: 350px !important;
+    margin-left: 10px;
+  }
+  .recent-activity{
+      width: 350px !important;
+    margin-left: 10px;
+  }
+
+}

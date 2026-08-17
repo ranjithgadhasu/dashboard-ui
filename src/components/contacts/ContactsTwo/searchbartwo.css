@@ -1,0 +1,47 @@
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .search-bar-width {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+    }
+    .search-input-two {
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        min-width: 0 !important;
+
+        height: 44px !important;
+
+        box-sizing: border-box !important;
+
+        border-radius: 12px !important;
+
+        padding-left: 44px !important;
+
+        padding-right: 14px !important;
+
+        font-size: 14px !important;
+
+        background: #ffffff !important;
+    }
+
+
+    .search-icon-mobile {
+
+        left: 14px !important;
+
+        width: 18px !important;
+
+        height: 18px !important;
+    }
+}

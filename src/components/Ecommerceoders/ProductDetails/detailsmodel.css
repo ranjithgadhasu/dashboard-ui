@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     PRODUCT DETAILS OVERLAY
+  ========================================== */
+
+  .product-details-overlay {
+    width: 100% !important;
+    height: 100vh !important;
+
+    padding: 8px !important;
+
+    box-sizing: border-box !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     MODAL
+  ========================================== */
+
+  .product-details-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    height: calc(100vh - 16px) !important;
+    max-height: calc(100vh - 16px) !important;
+
+    border-radius: 12px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+
+  /* ==========================================
+     CLOSE BUTTON
+  ========================================== */
+
+  .product-details-close {
+    top: 10px !important;
+    right: 10px !important;
+
+    width: 30px !important;
+    height: 30px !important;
+
+    border-radius: 50% !important;
+
+    padding: 0 !important;
+  }
+
+  .product-details-close svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+
+  /* ==========================================
+     BODY
+  ========================================== */
+
+  .product-details-body {
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 20px !important;
+
+    padding: 50px 12px 20px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* ==========================================
+     GALLERY
+  ========================================== */
+
+  .product-details-body > :first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /* ==========================================
+     PRODUCT INFO
+  ========================================== */
+
+  .product-details-body > :last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+  }
+
+}

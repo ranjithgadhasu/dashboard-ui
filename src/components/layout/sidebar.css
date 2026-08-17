@@ -1,0 +1,23 @@
+.sidebar {
+  height: 110vh !important;
+
+
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+
+  overflow: hidden !important;
+
+
+  /*Header*/
+   .dashboard-header-mobile {
+    width: 365px !important;
+    max-width: 365px !important;
+    min-width: 365px !important;
+
+    box-sizing: border-box !important;
+
+    margin: 0 !important;
+  }
+}
+

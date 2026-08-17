@@ -1,0 +1,168 @@
+@media (max-width: 767px) {
+    .dashboard-header-size{
+        margin-top: -1880px !important;
+
+    }
+
+    .dashboard-six-desktop {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+
+    /* LEFT */
+
+    .dashboard-six-left {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+
+    /* ==========================================
+       1. HEADER
+    ========================================== */
+
+    .dashboard-six-header {
+        order: 1 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       INCOME + BALANCE
+    ========================================== */
+
+    .dashboard-six-income-balance {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       2. INCOME
+    ========================================== */
+
+    .dashboard-six-income {
+        order: 2 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       3. BALANCE
+    ========================================== */
+
+    .dashboard-six-balance {
+        order: 3 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       TRANSACTIONS + PAYMENTS
+    ========================================== */
+
+    .dashboard-six-transactions-payments {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       4. TRANSACTIONS
+    ========================================== */
+
+    .dashboard-six-transactions {
+        order: 4 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       5. PAYMENTS
+    ========================================== */
+
+    .dashboard-six-payments {
+        order: 5 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       SIDEBAR
+    ========================================== */
+
+    .dashboard-six-sidebar {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+
+        margin: 0 !important;
+        background: transparent !important;
+    }
+
+
+    /* ==========================================
+       6. PROFILE
+    ========================================== */
+
+    .dashboard-six-profile {
+        order: 6 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       7. CARDS
+    ========================================== */
+
+    .dashboard-six-cards {
+        order: 7 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================
+       8. CONTACTS
+    ========================================== */
+
+    .dashboard-six-contacts {
+        order: 8 !important;
+
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+}

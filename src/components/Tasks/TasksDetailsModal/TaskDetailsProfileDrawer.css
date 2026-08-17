@@ -1,0 +1,140 @@
+/* =========================================
+   DESKTOP
+========================================= */
+
+.task-profile-drawer-overlay {
+  background: rgba(0, 0, 0, 0.20);
+}
+
+.task-profile-drawer {
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  transition:
+    width 0.3s ease,
+    transform 0.3s ease;
+}
+
+.task-profile-drawer-layout {
+  min-height: 0;
+}
+
+.task-profile-drawer-left {
+  min-width: 0;
+  min-height: 0;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.task-profile-drawer-right {
+  flex-shrink: 0;
+  min-height: 0;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.task-profile-drawer-close {
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .task-profile-drawer {
+    width: 90%;
+  }
+
+  .task-profile-drawer-left {
+    padding: 24px;
+  }
+
+  .task-profile-drawer-right {
+    width: 300px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+
+  /* Drawer */
+
+  .task-profile-drawer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    max-width: 100%;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+    overflow: hidden;
+  }
+
+
+  /* Close button */
+
+  .task-profile-drawer-close {
+    top: 12px;
+    right: 14px;
+
+    width: 34px;
+    height: 34px;
+
+    z-index: 100;
+  }
+
+
+  /* Layout */
+
+  .task-profile-drawer-layout {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* Left task details */
+
+  .task-profile-drawer-left {
+    width: 100%;
+    height: 100%;
+
+    padding: 20px 16px 30px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  /* Hide divider */
+
+  .task-profile-drawer-divider {
+    display: none;
+  }
+
+
+  /* Right profile */
+
+  .task-profile-drawer-right {
+    display: none;
+  }
+
+}

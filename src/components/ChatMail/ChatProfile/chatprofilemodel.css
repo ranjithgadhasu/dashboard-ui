@@ -1,0 +1,42 @@
+/* =========================================
+   PROFILE SIDEBAR - DESKTOP
+========================================= */
+
+.chat-profile-sidebar {
+  width: 320px;
+}
+
+
+/* =========================================
+   MOBILE PROFILE MODAL
+========================================= */
+
+@media (max-width: 767px) {
+
+  .chat-profile-sidebar {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+
+    overflow-y: auto;
+
+    border-left: none;
+    background: #ffffff;
+  }
+
+  .chat-profile-sidebar-header {
+    width: 100%;
+  }
+
+  .chat-profile-sidebar-info {
+    width: 100%;
+  }
+
+  .chat-profile-sidebar-files,
+  .chat-profile-sidebar-media,
+  .chat-profile-sidebar-members {
+    width: 100%;
+  }
+
+}

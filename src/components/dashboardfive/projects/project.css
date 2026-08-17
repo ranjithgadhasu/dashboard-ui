@@ -1,0 +1,50 @@
+/* PROJECTS CARD - MOBILE */
+
+@media (max-width: 767px) {
+
+  .projects-card-mobile {
+    width: 350px !important;
+    box-sizing: border-box !important;
+    margin-left: 10px;
+    padding: 20px !important;
+    overflow: hidden !important;
+  }
+
+  /* Header */
+
+  .projects-card-header {
+    width: 100% !important;
+    margin-bottom: 16px !important;
+  }
+
+  .projects-card-header h2 {
+    font-size: 18px !important;
+  }
+
+  /* Chart */
+
+  .projects-card-mobile > .recharts-responsive-container {
+    width: 100% !important;
+  }
+
+  /* Bottom */
+
+  .projects-card-bottom {
+    width: 100% !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0 !important;
+  }
+
+  .projects-card-item {
+    min-width: 0 !important;
+  }
+
+  .projects-card-item h3 {
+    font-size: 24px !important;
+  }
+
+  .projects-card-item p {
+    font-size: 13px !important;
+  }
+
+}

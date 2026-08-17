@@ -1,0 +1,88 @@
+@media (max-width: 767px) {
+.cards-sizes{
+    width: 350px !important;
+    margin-left: 10px !important;
+}
+
+/*Add Modal*/
+
+  .add-card-modal-overlay {
+    padding: 16px !important;
+    overflow-y: auto !important;
+  }
+
+  .add-card-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    max-height: calc(100vh - 32px) !important;
+    overflow-y: auto !important;
+
+    padding: 24px !important;
+
+    border-radius: 16px !important;
+  }
+
+
+  /* Close button */
+
+  .add-card-modal button.absolute {
+    right: 18px !important;
+    top: 18px !important;
+
+    height: 36px !important;
+    width: 36px !important;
+  }
+
+
+  /* Title */
+
+  .add-card-modal h2 {
+    margin-bottom: 28px !important;
+
+    padding-right: 45px !important;
+
+    font-size: 24px !important;
+  }
+
+
+  /* Form spacing */
+
+  .add-card-modal .mb-8 {
+    margin-bottom: 20px !important;
+  }
+
+
+  /* Inputs */
+
+  .add-card-modal input {
+    height: 52px !important;
+
+    padding-left: 16px !important;
+
+    font-size: 16px !important;
+  }
+
+
+  /* Card number */
+
+  .add-card-modal img {
+    right: 16px !important;
+  }
+
+
+  /* Month + Year */
+
+  .add-card-expiry {
+    gap: 12px !important;
+
+    margin-bottom: 24px !important;
+  }
+
+
+  /* Add Card button */
+
+  .add-card-modal > button:last-child {
+    height: 52px !important;
+  }
+}

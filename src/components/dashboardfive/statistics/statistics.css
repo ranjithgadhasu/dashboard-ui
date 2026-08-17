@@ -1,0 +1,42 @@
+/* ==========================================
+   STATISTICS CHART - MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .statistics-chart-mobile {
+    width: 350px !important;
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 402px !important;
+    box-sizing: border-box !important;
+    padding: 20px !important;
+  }
+
+  /* Header */
+
+  .statistics-chart-mobile > div:first-child {
+    width: 100% !important;
+    flex-shrink: 0 !important;
+  }
+
+  .statistics-chart-mobile h2 {
+    font-size: 18px !important;
+  }
+
+  /* Chart */
+
+  .statistics-chart-mobile .recharts-responsive-container {
+    width: 100% !important;
+  }
+
+  /* Legend */
+
+  .statistics-chart-mobile > div:last-child {
+    width: 100% !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+  }
+
+}

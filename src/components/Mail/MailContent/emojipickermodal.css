@@ -1,0 +1,53 @@
+
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .emoji-picker-modal {
+    position: fixed !important;
+
+    left: 12px !important;
+    right: 12px !important;
+
+    bottom: 68px !important;
+
+    width: auto !important;
+    max-width: none;
+
+    max-height: calc(100vh - 100px);
+
+    overflow-y: auto;
+
+    border-radius: 16px;
+  }
+
+  /* Search */
+  .emoji-picker-modal > div:first-child {
+    padding: 12px !important;
+  }
+
+  .emoji-picker-modal input {
+    font-size: 14px;
+  }
+
+  /* Popular */
+  .emoji-picker-modal .text-\[28px\] {
+    font-size: 24px !important;
+  }
+
+  /* Smileys */
+  .emoji-picker-modal .grid {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px !important;
+  }
+
+  /* Bottom */
+  .emoji-picker-modal > div:last-child {
+    padding: 10px 16px !important;
+  }
+
+}

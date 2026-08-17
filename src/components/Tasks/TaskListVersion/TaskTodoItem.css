@@ -1,0 +1,376 @@
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+.task-todo-item {
+  width: 100%;
+  min-width: 0;
+}
+
+.task-todo-left {
+  min-width: 0;
+  flex-shrink: 1;
+}
+
+.task-todo-checkbox {
+  flex-shrink: 0;
+}
+
+.task-todo-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.task-todo-right {
+  flex-shrink: 0;
+}
+
+.task-todo-date {
+  flex-shrink: 0;
+}
+
+.task-todo-date-text {
+  white-space: nowrap;
+}
+
+.task-todo-status {
+  flex-shrink: 0;
+}
+
+.task-todo-members {
+  flex-shrink: 0;
+}
+
+.task-todo-member {
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .task-todo-item {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border-radius: 18px;
+  }
+
+  .task-todo-left {
+    gap: 12px;
+  }
+
+  .task-todo-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+
+  .task-todo-title {
+    font-size: 14px;
+  }
+
+  .task-todo-date {
+    min-width: 80px;
+  }
+
+  .task-todo-date-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .task-todo-date-text {
+    font-size: 12px;
+  }
+
+  .task-todo-status {
+    margin-left: 20px;
+  }
+
+  .task-todo-members {
+    margin-left: 16px;
+  }
+
+  .task-todo-member {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+  .task-todo-item {
+    width: 100%;
+
+    min-width: 0;
+
+    min-height: 84px;
+
+    padding: 14px 12px;
+
+    border-radius: 18px;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+  }
+
+
+  /* -------------------------------------------------------
+     LEFT
+  ------------------------------------------------------- */
+
+  .task-todo-left {
+    display: flex;
+
+    min-width: 0;
+
+    flex: 1;
+
+    gap: 10px;
+
+    overflow: hidden;
+  }
+
+
+  /* Checkbox */
+
+  .task-todo-checkbox {
+    width: 14px;
+    height: 14px;
+
+    flex-shrink: 0;
+  }
+
+
+  /* Title */
+
+  .task-todo-title {
+    min-width: 0;
+
+    max-width: 90px;
+
+    font-size: 12px !important;
+
+    line-height: 17px !important;
+
+    font-weight: 500 !important;
+
+    white-space: normal;
+
+    overflow: hidden;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 2;
+
+    -webkit-box-orient: vertical;
+  }
+
+
+  /* -------------------------------------------------------
+     RIGHT
+  ------------------------------------------------------- */
+
+  .task-todo-right {
+    display: flex;
+
+    align-items: center;
+
+    flex-shrink: 0;
+
+    min-width: 0;
+
+    margin-left: 6px;
+  }
+
+
+  /* -------------------------------------------------------
+     DATE
+  ------------------------------------------------------- */
+
+  .task-todo-date {
+    min-width: 52px;
+
+    width: 52px;
+
+    gap: 4px;
+
+    flex-shrink: 0;
+  }
+
+  .task-todo-date-icon {
+    width: 12px;
+
+    height: 12px;
+
+    flex-shrink: 0;
+  }
+
+  .task-todo-date-text {
+    font-size: 11px !important;
+
+    line-height: 15px !important;
+
+    white-space: normal;
+
+    color: #475467;
+  }
+
+
+  /* -------------------------------------------------------
+     STATUS
+  ------------------------------------------------------- */
+
+  .task-todo-status {
+    margin-left: 8px !important;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-shrink: 0;
+  }
+
+
+  /* -------------------------------------------------------
+     MEMBERS
+  ------------------------------------------------------- */
+
+  .task-todo-members {
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+    margin-left: 8px !important;
+
+    max-width: 54px;
+
+    overflow: hidden;
+
+    flex-shrink: 0;
+  }
+
+  .task-todo-member {
+    width: 22px !important;
+
+    height: 22px !important;
+
+    min-width: 22px !important;
+
+    min-height: 22px !important;
+
+    max-width: 22px !important;
+
+    max-height: 22px !important;
+
+    border-width: 1px;
+  }
+
+
+  /* -------------------------------------------------------
+     IF MULTIPLE MEMBERS
+  ------------------------------------------------------- */
+
+  .task-todo-member:nth-child(n + 3) {
+    display: none;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+  .task-todo-item {
+    min-height: 78px;
+
+    padding: 12px 9px;
+
+    border-radius: 16px;
+  }
+
+  .task-todo-left {
+    gap: 7px;
+  }
+
+  .task-todo-checkbox {
+    width: 13px;
+    height: 13px;
+  }
+
+  .task-todo-title {
+    max-width: 72px;
+
+    font-size: 11px !important;
+
+    line-height: 15px !important;
+  }
+
+  .task-todo-right {
+    margin-left: 3px;
+  }
+
+  .task-todo-date {
+    width: 46px;
+
+    min-width: 46px;
+
+    gap: 3px;
+  }
+
+  .task-todo-date-icon {
+    width: 11px;
+
+    height: 11px;
+  }
+
+  .task-todo-date-text {
+    font-size: 10px !important;
+
+    line-height: 14px !important;
+  }
+
+  .task-todo-status {
+    margin-left: 5px !important;
+  }
+
+  .task-todo-members {
+    max-width: 46px;
+
+    margin-left: 5px !important;
+  }
+
+  .task-todo-member {
+    width: 20px !important;
+
+    height: 20px !important;
+
+    min-width: 20px !important;
+
+    min-height: 20px !important;
+
+    max-width: 20px !important;
+
+    max-height: 20px !important;
+  }
+
+}

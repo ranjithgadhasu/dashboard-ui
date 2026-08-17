@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     ORDERS PAGE
+  ========================================== */
+
+  .orders-page {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-height: 100vh !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+  }
+
+
+  /* ==========================================
+     INNER CONTAINER
+  ========================================== */
+
+  .orders-page > .mx-auto {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+}

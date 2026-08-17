@@ -1,0 +1,150 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     INFORMATION MODAL OVERLAY
+  ========================================== */
+
+  .information-modal-overlay {
+    padding: 8px !important;
+
+    box-sizing: border-box !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+
+  /* ==========================================
+     MODAL
+  ========================================== */
+
+  .information-modal {
+    width: calc(100vw - 16px) !important;
+    max-width: calc(100vw - 16px) !important;
+
+    min-width: 0 !important;
+
+    height: calc(100vh - 16px) !important;
+    max-height: calc(100vh - 16px) !important;
+
+    border-radius: 12px !important;
+
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .information-modal-header {
+    width: 100% !important;
+
+    flex-shrink: 0 !important;
+
+    padding: 12px 10px 0 !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ==========================================
+     TABS
+  ========================================== */
+
+  .information-modal-tabs {
+    width: 100% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 16px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    scrollbar-width: none !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .information-modal-tabs::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* Individual tab */
+
+  .information-modal-tab {
+    flex-shrink: 0 !important;
+
+    margin-right: 0 !important;
+
+    padding-bottom: 8px !important;
+
+    font-size: 9px !important;
+
+    line-height: 1 !important;
+    margin-left: 10px !important;
+
+    white-space: nowrap !important;
+
+    letter-spacing: 0.3px !important;
+  }
+
+
+  /* ==========================================
+     CLOSE BUTTON
+  ========================================== */
+
+  .information-modal-close {
+    width: 26px !important;
+    height: 26px !important;
+
+    flex-shrink: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    margin-left: 6px !important;
+
+    padding: 3px !important;
+  }
+
+  .information-modal-close svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+
+  /* ==========================================
+     BODY
+  ========================================== */
+
+  .information-modal-body {
+    width: 100% !important;
+
+    height: auto !important;
+
+    flex: 1 !important;
+
+    min-height: 0 !important;
+
+    padding: 8px 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+}

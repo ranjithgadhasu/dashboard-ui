@@ -1,0 +1,238 @@
+@media screen and (max-width: 767px) {
+
+  /* ==========================================
+     INVOICE TAB
+  ========================================== */
+
+  .invoice-tab {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    padding: 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+  }
+
+
+  /* ==========================================
+     HEADER
+  ========================================== */
+
+  .invoice-header {
+    width: 100% !important;
+
+    margin-bottom: 10px !important;
+
+    gap: 6px !important;
+  }
+
+  .invoice-title {
+    font-size: 20px !important;
+
+    line-height: 1.2 !important;
+  }
+
+  .invoice-export {
+    flex-shrink: 0 !important;
+  }
+
+
+  /* ==========================================
+     INVOICE INFORMATION
+  ========================================== */
+
+  .invoice-information {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+
+    gap: 16px !important;
+
+    margin-bottom: 16px !important;
+  }
+
+
+  /* ==========================================
+     LEFT
+  ========================================== */
+
+  .invoice-information-left {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 10px !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /* ==========================================
+     INVOICE CARD
+  ========================================== */
+
+  .invoice-card {
+    width: 90px !important;
+    min-width: 90px !important;
+
+    height: 90px !important;
+
+    border-radius: 8px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  .invoice-card-title {
+    font-size: 12px !important;
+  }
+
+  .invoice-number {
+    margin-top: 5px !important;
+
+    font-size: 10px !important;
+  }
+
+
+  /* ==========================================
+     COMPANY
+  ========================================== */
+
+  .invoice-company {
+    width: auto !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+
+    margin-top: 0 !important;
+
+    min-width: 0 !important;
+  }
+
+  .invoice-company h3 {
+    font-size: 11px !important;
+
+    line-height: 1.3 !important;
+  }
+
+  .invoice-company p {
+    font-size: 9px !important;
+
+    line-height: 1.4 !important;
+
+    overflow-wrap: anywhere !important;
+  }
+
+
+  /* ==========================================
+     CUSTOMER
+  ========================================== */
+
+  .invoice-customer {
+    width: 100% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    text-align: left !important;
+
+    gap: 8px !important;
+  }
+
+
+  .invoice-date {
+    margin-bottom: 0 !important;
+
+    font-size: 9px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  .invoice-customer-info {
+    justify-content: flex-start !important;
+
+    gap: 6px !important;
+
+    min-width: 0 !important;
+  }
+
+
+  .invoice-customer-logo {
+    width: 28px !important;
+    height: 28px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  .invoice-customer-name {
+    font-size: 11px !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* ==========================================
+     PRODUCTS
+  ========================================== */
+
+  .invoice-products {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    overflow-x: auto !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .invoice-products::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* ==========================================
+     SUMMARY
+  ========================================== */
+
+  .invoice-summary {
+    width: 100% !important;
+
+    margin-top: 12px !important;
+
+    justify-content: flex-end !important;
+  }
+
+  .invoice-summary-content {
+    width: 200px !important;
+
+    max-width: 100% !important;
+
+    gap: 6px !important;
+  }
+
+
+  .invoice-summary-content > div {
+    font-size: 10px !important;
+  }
+
+  .invoice-summary-content span {
+    font-size: 10px !important;
+  }
+
+}

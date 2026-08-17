@@ -1,0 +1,143 @@
+/* =========================================
+   PROFILE SIDEBAR
+========================================= */
+
+.profile-sidebar-two {
+    width: 280px;
+    flex-shrink: 0;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+
+    background: #ffffff;
+
+    padding: 16px 12px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.profile-sidebar-section {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .profile-sidebar-two {
+
+        /* EXACT MOBILE CARD WIDTH */
+        width: 350px !important;
+
+        /* Prevent overflow on smaller phones */
+        max-width: calc(100vw - 24px) !important;
+
+        /* Center the card */
+        margin: 0 auto !important;
+
+        padding: 24px 18px !important;
+
+        border-radius: 10px !important;
+
+        box-sizing: border-box !important;
+
+        background: #ffffff !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* Profile */
+
+    .profile-sidebar-two .profile-sidebar-section {
+        width: 100% !important;
+
+        padding: 0 4px !important;
+    }
+
+
+    /* Profile image */
+
+    .profile-sidebar-two img {
+        max-width: 100%;
+    }
+
+
+    /* Name */
+
+    .profile-sidebar-two h2 {
+        text-align: center;
+    }
+
+
+    /* Info */
+
+    .profile-sidebar-two section {
+        width: 100% !important;
+    }
+
+
+    /* Friends */
+
+    .profile-sidebar-two section:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+
+    /* Photos */
+
+    .profile-sidebar-two section:last-of-type {
+        width: 100% !important;
+    }
+
+
+    .profile-sidebar-two .grid {
+        width: 100% !important;
+
+        grid-template-columns: repeat(3, 1fr) !important;
+
+        gap: 8px !important;
+    }
+
+
+    .profile-sidebar-two .grid img {
+        width: 100% !important;
+
+        height: auto !important;
+
+        aspect-ratio: 1 / 1 !important;
+
+        object-fit: cover !important;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 374px) {
+
+    .profile-sidebar-two {
+        width: calc(100vw - 20px) !important;
+
+        max-width: calc(100vw - 20px) !important;
+
+        padding: 20px 14px !important;
+    }
+
+    .profile-sidebar-two .profile-sidebar-section {
+        padding: 0 2px !important;
+    }
+
+}
