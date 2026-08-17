@@ -46,7 +46,7 @@ import FileManagerPage from "../components/FileManager/FileManagerPage";
 import FileManagerLayoutTwo from "../components/FileManager/FileManagerTwo/FileManagerLayoutTwo";
 
 import ContactMainLayout from "../components/contacts/ContactMainLayout";
-import ContactsPage from "../pages/contacts/ContactsPage";
+import ContactsPage from "../pages/Contacts/ContactsPage";
 import ContactListLayout from "../components/contacts/ContactList/ContactListLayout";
 import ContactListViewPage from "../pages/Contacts/ContactListViewPage";
 
